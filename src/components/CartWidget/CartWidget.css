@@ -1,0 +1,27 @@
+.cartwidget {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4rem;
+  height: 2.2rem;
+  position: relative;
+}
+
+.cartwidget__count {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  background-color: #da1106;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #ffffff;
+  top: -1.2rem;
+  right: 0;
+}

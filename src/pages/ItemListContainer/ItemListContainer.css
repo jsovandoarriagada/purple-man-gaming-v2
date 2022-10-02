@@ -1,0 +1,14 @@
+.products {
+  width: 120rem;
+  height: auto;
+  margin: 2rem auto;
+  font-weight: bold;
+}
+
+@media (max-width: 79.125rem) {
+  .products {
+    width: 100%;
+    height: auto;
+    padding: 0 2rem;
+  }
+}
