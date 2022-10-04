@@ -1,11 +1,40 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartProvider";
-import { useNavigate } from "react-router-dom";
+import { collection, addDoc, getFirestore } from "firebase/firestore";
+import moment from "moment";
 import "./Cart.css";
 
 const Cart = () => {
-  const { cart, removeItem, clear, fullPrice, discount, total } = useContext(CartContext);
-  const previous = useNavigate();
+  const { cart, removeItem, clear, fullPrice, discount, total } =
+    useContext(CartContext);
+  const db = getFirestore();
+
+  const createOrder = () => {
+    const order = {
+      buyer: {
+        name: "Customer",
+        phone: "+56998877665",
+        email: "customer@customer.com",
+      },
+      items: cart,
+      total: cart.reduce(
+        (previousValue, currentValue) =>
+          previousValue + currentValue.finalPrice * currentValue.quantity,
+        0
+      ),
+      date: moment().format(),
+    };
+
+    const query = collection(db, "orders");
+    addDoc(query, order)
+      .then(({ id }) => {
+        console.log(id);
+        alert("Successful purchase!");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
 
   return (
     <div className="cart">
@@ -17,7 +46,11 @@ const Cart = () => {
                 <div className="item__game">
                   <img src={item.productImage} alt={item.name} />
                   <div className="item__platform">
-                    <img className="item__platform--logo" src={item.platformLogo} alt={item.platform} />
+                    <img
+                      className="item__platform--logo"
+                      src={item.platformLogo}
+                      alt={item.platform}
+                    />
                     <p>{item.platform}</p>
                   </div>
                 </div>
@@ -36,7 +69,7 @@ const Cart = () => {
             ))
           ) : (
             <div className="cart__empty">
-              <div className="previous" onClick={() => previous(-1)}>
+              <div className="previous">
                 <i className="fa-solid fa-backward"></i>
                 <p>PREVIOUS</p>
               </div>
@@ -63,7 +96,9 @@ const Cart = () => {
               <p className="summary__total--value">${total} USD</p>
             </div>
             <div className="summary__buttons">
-              <button className="summary__proceed">PROCEED</button>
+              <button className="summary__proceed" onClick={createOrder}>
+                PROCEED
+              </button>
               <button className="summary__clear" onClick={clear}>
                 CLEAR
               </button>

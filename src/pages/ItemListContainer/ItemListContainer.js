@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getDocs, collection, query, where } from "firebase/firestore";
-import db from "../../firebase/firebase";
+import db from "../../data/firebase";
 import Loader from "../../components/Loader/Loader";
 import ItemList from "../../components/ItemList/ItemList";
 
@@ -15,7 +15,10 @@ const ItemListContainer = () => {
   const getProducts = () => {
     const querySnapshot = collection(db, "items");
     if (category) {
-      const queryFilter = query(querySnapshot, where("category", "==", category));
+      const queryFilter = query(
+        querySnapshot,
+        where("category", "==", category)
+      );
       getDocs(queryFilter)
         .then((response) => {
           const data = response.docs.map((item) => {
