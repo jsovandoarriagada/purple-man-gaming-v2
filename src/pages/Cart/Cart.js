@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartProvider";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
+import { useNavigate } from "react-router-dom";
 import moment from "moment";
 import "./Cart.css";
 
@@ -8,6 +9,7 @@ const Cart = () => {
   const { cart, removeItem, clear, fullPrice, discount, total } =
     useContext(CartContext);
   const db = getFirestore();
+  const back = useNavigate();
 
   const createOrder = () => {
     const order = {
@@ -69,9 +71,9 @@ const Cart = () => {
             ))
           ) : (
             <div className="cart__empty">
-              <div className="previous">
+              <div className="back" onClick={() => back(-1)}>
                 <i className="fa-solid fa-backward"></i>
-                <p>PREVIOUS</p>
+                <p>BACK</p>
               </div>
               <p className="empty">YOUR CART IS EMPTY</p>
             </div>

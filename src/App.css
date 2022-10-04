@@ -316,7 +316,7 @@ i {
   color: #161618;
 }
 
-.previous {
+.back {
   display: flex;
   justify-items: flex-start;
   align-items: center;
@@ -326,8 +326,4 @@ i {
   width: 100%;
   margin-bottom: 10px;
   cursor: pointer;
-}
-
-.previous:hover {
-  color: #a153f9;
 }

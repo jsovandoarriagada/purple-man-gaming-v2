@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { CartContext } from "../../context/CartProvider";
 import ItemCount from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
@@ -10,6 +10,7 @@ const ItemDetail = ({ item }) => {
   const [counter, setCounter] = useState(false);
   const [button, setButton] = useState(false);
   const { addItem } = useContext(CartContext);
+  const back = useNavigate();
 
   const [isShown, setIsShown] = useState(false);
   const buttonStyles = isShown
@@ -33,9 +34,9 @@ const ItemDetail = ({ item }) => {
   return (
     <div className="details">
       <div className="details__header">
-        <div className="previous">
+        <div className="back" onClick={() => back(-1)}>
           <i className="fa-solid fa-backward"></i>
-          <p>PREVIOUS</p>
+          <p>BACK</p>
         </div>
         <p className="details__title">{item.name}</p>
       </div>
