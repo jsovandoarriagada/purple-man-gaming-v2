@@ -6,8 +6,7 @@ import moment from "moment";
 import "./Cart.css";
 
 const Cart = () => {
-  const { cart, removeItem, clear, fullPrice, discount, total } =
-    useContext(CartContext);
+  const { cart, removeItem, clear, fullPrice, discount, total } = useContext(CartContext);
   const db = getFirestore();
   const back = useNavigate();
 
@@ -20,8 +19,7 @@ const Cart = () => {
       },
       items: cart,
       total: cart.reduce(
-        (previousValue, currentValue) =>
-          previousValue + currentValue.finalPrice * currentValue.quantity,
+        (previousValue, currentValue) => previousValue + currentValue.finalPrice * currentValue.quantity,
         0
       ),
       date: moment().format(),
@@ -48,11 +46,7 @@ const Cart = () => {
                 <div className="item__game">
                   <img src={item.productImage} alt={item.name} />
                   <div className="item__platform">
-                    <img
-                      className="item__platform--logo"
-                      src={item.platformLogo}
-                      alt={item.platform}
-                    />
+                    <img className="item__platform--logo" src={item.platformLogo} alt={item.platform} />
                     <p>{item.platform}</p>
                   </div>
                 </div>
@@ -62,17 +56,22 @@ const Cart = () => {
                 <div className="item__cost">
                   <div className="item__discount">-{item.discount}</div>
                   <div className="item__price">
-                    <p className="item__price--base">${item.basePrice} USD</p>
-                    <p className="item__price--final">${item.finalPrice} USD</p>
+                    <p className="item__price--base">${item.basePrice * item.quantity} USD</p>
+                    <p className="item__price--final">${item.finalPrice * item.quantity} USD</p>
                   </div>
-                  <i className="fa-solid fa-trash" onClick={removeItem}></i>
+                  <i
+                    className="fa-solid fa-trash"
+                    onClick={() => {
+                      removeItem(item.id, item.basePrice, item.finalPrice, item.quantity);
+                    }}
+                  ></i>
                 </div>
               </div>
             ))
           ) : (
             <div className="cart__empty">
               <div className="back" onClick={() => back(-1)}>
-                <i className="fa-solid fa-backward"></i>
+                <i className="fa-solid fa-rotate-left"></i>
                 <p>BACK</p>
               </div>
               <p className="empty">YOUR CART IS EMPTY</p>

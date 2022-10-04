@@ -3,21 +3,33 @@ import { createContext, useState, useMemo } from "react";
 export const CartContext = createContext([]);
 
 const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")) ?? []);
+  const [cart, setCart] = useState([]);
   const [fullPrice, setFullPrice] = useState(0);
   const [discount, setDiscount] = useState(0);
   const [total, setTotal] = useState(0);
 
-  const calculateFullPrice = (basePrice, quantity) => {
+  const calculateFullPriceOnAdd = (basePrice, quantity) => {
     setFullPrice(basePrice * quantity + fullPrice);
   };
 
-  const calculateTotal = (finalPrice, quantity) => {
+  const calculateFullPriceOnRemove = (basePrice, quantity) => {
+    setFullPrice(fullPrice - basePrice * quantity);
+  };
+
+  const calculateDiscountOnAdd = (basePrice, finalPrice, quantity) => {
+    setDiscount((basePrice - finalPrice) * quantity + discount);
+  };
+
+  const calculateDiscountOnRemove = (basePrice, finalPrice, quantity) => {
+    setDiscount(discount - (basePrice - finalPrice) * quantity);
+  };
+
+  const calculateTotalOnAdd = (finalPrice, quantity) => {
     setTotal(finalPrice * quantity + total);
   };
 
-  const calculateDiscount = (basePrice, finalPrice, quantity) => {
-    setDiscount((basePrice - finalPrice) * quantity + discount);
+  const calculateTotalOnRemove = (finalPrice, quantity) => {
+    setTotal(total - finalPrice * quantity);
   };
 
   const isInCart = (item) => {
@@ -31,16 +43,16 @@ const CartProvider = ({ children }) => {
     } else {
       setCart([...cart, { ...item, quantity }]);
     }
-    calculateFullPrice(item.basePrice, quantity);
-    calculateDiscount(item.basePrice, item.finalPrice, quantity);
-    calculateTotal(item.finalPrice, quantity);
+    calculateFullPriceOnAdd(item.basePrice, quantity);
+    calculateDiscountOnAdd(item.basePrice, item.finalPrice, quantity);
+    calculateTotalOnAdd(item.finalPrice, quantity);
   };
 
-  const removeItem = (item) => {
-    cart.splice(cart.indexOf(item), 1);
-
-    setCart([...cart]);
-    
+  const removeItem = (id, basePrice, finalPrice, quantity) => {
+    setCart(cart.filter((item) => item.id !== id));
+    calculateFullPriceOnRemove(basePrice, quantity);
+    calculateDiscountOnRemove(basePrice, finalPrice, quantity);
+    calculateTotalOnRemove(finalPrice, quantity);
   };
 
   const clear = () => {
@@ -49,8 +61,6 @@ const CartProvider = ({ children }) => {
     setDiscount(0);
     setTotal(0);
   };
-
-  useMemo(() => localStorage.setItem("cart", JSON.stringify(cart)), [cart])
 
   return (
     <CartContext.Provider value={{ cart, addItem, removeItem, clear, fullPrice, discount, total }}>
