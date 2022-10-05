@@ -18,10 +18,7 @@ const Cart = () => {
         email: "customer@customer.com",
       },
       items: cart,
-      total: cart.reduce(
-        (previousValue, currentValue) => previousValue + currentValue.finalPrice * currentValue.quantity,
-        0
-      ),
+      total: cart.reduce((previous, current) => previous + current.finalPrice * current.quantity, 0),
       date: moment().format(),
     };
 

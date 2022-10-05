@@ -94,7 +94,6 @@ i {
 
 .detail {
   width: 100%;
-  text-align: justify;
   display: flex;
   flex-direction: column;
   gap: 40px;

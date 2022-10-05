@@ -7,12 +7,12 @@ import "./ItemDetail.css";
 const ItemDetail = ({ item }) => {
   const [count, setCount] = useState(1);
   const [stock, setStock] = useState(0);
+  const [isShown, setIsShown] = useState(false);
   const [counter, setCounter] = useState(false);
   const [button, setButton] = useState(false);
   const { addItem } = useContext(CartContext);
   const back = useNavigate();
 
-  const [isShown, setIsShown] = useState(false);
   const buttonStyles = isShown
     ? { backgroundColor: "#da1106", color: "#ffffff" }
     : { backgroundColor: "#a153f9", color: "#161618" };
