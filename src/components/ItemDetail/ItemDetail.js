@@ -7,9 +7,7 @@ import "./ItemDetail.css";
 const ItemDetail = ({ item }) => {
   const [count, setCount] = useState(1);
   const [stock, setStock] = useState(0);
-
   const [counter, setCounter] = useState(false);
-
   const { isInCart, addItem } = useContext(CartContext);
   const back = useNavigate();
 
@@ -103,33 +101,17 @@ const ItemDetail = ({ item }) => {
                     <p className="card__counter--display">x{count}</p>
                   </div>
                 )}
-                {
-                  isInCart(item) ? (
-                    <NavLink to={"/cart"} className="card__button" style={buttonStyles}>
-                      <i className="fa-solid fa-cart-shopping"></i>
-                      <p>GO TO CART</p>
-                    </NavLink>
-                  ) : (
-                    <button className="card__button" onClick={addToCart} style={buttonStyles}>
-                      <i className="fa-solid fa-cart-shopping"></i>
-                      <p>ADD TO CART</p>
-                    </button>
-                  )
-
-                  /*
-                button === false ? (
-                  <button className="card__button" onClick={addToCart} style={buttonStyles}>
-                    <i className="fa-solid fa-cart-shopping"></i>
-                    <p>ADD TO CART</p>
-                  </button>
-                ) : (
+                {isInCart(item) ? (
                   <NavLink to={"/cart"} className="card__button" style={buttonStyles}>
                     <i className="fa-solid fa-cart-shopping"></i>
                     <p>GO TO CART</p>
                   </NavLink>
-                )
-                */
-                }
+                ) : (
+                  <button className="card__button" onClick={addToCart} style={buttonStyles}>
+                    <i className="fa-solid fa-cart-shopping"></i>
+                    <p>ADD TO CART</p>
+                  </button>
+                )}
               </div>
             </div>
           </div>

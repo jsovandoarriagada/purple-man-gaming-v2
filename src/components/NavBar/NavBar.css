@@ -59,11 +59,23 @@
   margin: 0;
 }
 
-a {
+.header a {
   color: #161618;
   font-weight: bold;
 }
 
-a:hover {
+.header a:hover {
   color: #161618;
+  text-decoration: underline 3px;
+  text-underline-offset: 3px;
+}
+
+.underline {
+  text-decoration: underline 3px;
+  text-underline-offset: 3px;
+  font-weight: bold;
+}
+
+.none {
+  font-weight: bold;
 }
