@@ -7,13 +7,13 @@ import "./ItemDetail.css";
 const ItemDetail = ({ item }) => {
   const [count, setCount] = useState(1);
   const [stock, setStock] = useState(0);
-  const [isShown, setIsShown] = useState(false);
+
   const [counter, setCounter] = useState(false);
-  const [button, setButton] = useState(false);
-  const { addItem } = useContext(CartContext);
+
+  const { isInCart, addItem } = useContext(CartContext);
   const back = useNavigate();
 
-  const buttonStyles = isShown
+  const buttonStyles = isInCart(item)
     ? { backgroundColor: "#da1106", color: "#ffffff" }
     : { backgroundColor: "#a153f9", color: "#161618" };
 
@@ -22,9 +22,7 @@ const ItemDetail = ({ item }) => {
   }, [item.stock]);
 
   const addToCart = () => {
-    return count <= stock && count > 0
-      ? (setStock(stock - count), addItem(item, count), setButton(true), setIsShown(true), setCounter(true))
-      : null;
+    return count <= stock && count > 0 ? (setStock(stock - count), addItem(item, count), setCounter(true)) : null;
   };
 
   return (
@@ -105,7 +103,21 @@ const ItemDetail = ({ item }) => {
                     <p className="card__counter--display">x{count}</p>
                   </div>
                 )}
-                {button === false ? (
+                {
+                  isInCart(item) ? (
+                    <NavLink to={"/cart"} className="card__button" style={buttonStyles}>
+                      <i className="fa-solid fa-cart-shopping"></i>
+                      <p>GO TO CART</p>
+                    </NavLink>
+                  ) : (
+                    <button className="card__button" onClick={addToCart} style={buttonStyles}>
+                      <i className="fa-solid fa-cart-shopping"></i>
+                      <p>ADD TO CART</p>
+                    </button>
+                  )
+
+                  /*
+                button === false ? (
                   <button className="card__button" onClick={addToCart} style={buttonStyles}>
                     <i className="fa-solid fa-cart-shopping"></i>
                     <p>ADD TO CART</p>
@@ -115,7 +127,9 @@ const ItemDetail = ({ item }) => {
                     <i className="fa-solid fa-cart-shopping"></i>
                     <p>GO TO CART</p>
                   </NavLink>
-                )}
+                )
+                */
+                }
               </div>
             </div>
           </div>
