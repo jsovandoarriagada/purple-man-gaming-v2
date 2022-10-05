@@ -64,12 +64,6 @@
   font-weight: bold;
 }
 
-.header a:hover {
-  color: #161618;
-  text-decoration: underline 3px;
-  text-underline-offset: 3px;
-}
-
 .underline {
   text-decoration: underline 3px;
   text-underline-offset: 3px;
