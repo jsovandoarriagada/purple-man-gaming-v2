@@ -18,15 +18,13 @@ const NavBar = () => {
         </div>
       </div>
       <nav className="nav">
-        <NavLink to={"category/hot-deals"} className={({ isActive }) => (isActive ? "underline" : "none")}>
+        <NavLink to={"category/hot-deals"} /* className={({ isActive }) => (isActive ? "underline" : "none")} */>
           HOT DEALS
         </NavLink>
-        <NavLink to={"category/coming-soon"} className={({ isActive }) => (isActive ? "underline" : "none")}>
+        <NavLink to={"category/coming-soon"} /* className={({ isActive }) => (isActive ? "underline" : "none")} */>
           COMING SOON
         </NavLink>
-        <NavLink to={"category/new"} className={({ isActive }) => (isActive ? "underline" : "none")}>
-          NEW
-        </NavLink>
+        <NavLink to={"category/new"} /* className={({ isActive }) => (isActive ? "underline" : "none")} */>NEW</NavLink>
       </nav>
     </header>
   );

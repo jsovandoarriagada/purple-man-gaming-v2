@@ -7,7 +7,6 @@ import "./ItemDetail.css";
 const ItemDetail = ({ item }) => {
   const [count, setCount] = useState(1);
   const [stock, setStock] = useState(0);
-  const [counter, setCounter] = useState(false);
   const { isInCart, addItem } = useContext(CartContext);
   const back = useNavigate();
 
@@ -20,7 +19,7 @@ const ItemDetail = ({ item }) => {
   }, [item.stock]);
 
   const addToCart = () => {
-    return count <= stock && count > 0 ? (setStock(stock - count), addItem(item, count), setCounter(true)) : null;
+    return count <= stock && count > 0 ? (setStock(stock - count), addItem(item, count)) : null;
   };
 
   return (
@@ -94,23 +93,24 @@ const ItemDetail = ({ item }) => {
                     <p>{item.platform}</p>
                   </div>
                 </div>
-                {counter === false ? (
-                  <ItemCount count={count} setCount={setCount} stock={item.stock} />
-                ) : (
-                  <div className="card__counter">
-                    <p className="card__counter--display">x{count}</p>
-                  </div>
-                )}
                 {isInCart(item) ? (
-                  <NavLink to={"/cart"} className="card__button" style={buttonStyles}>
-                    <i className="fa-solid fa-cart-shopping"></i>
-                    <p>GO TO CART</p>
-                  </NavLink>
+                  <>
+                    <div className="card__counter">
+                      <p className="card__counter--display">x{isInCart(item).quantity}</p>
+                    </div>
+                    <NavLink to={"/cart"} className="card__button" style={buttonStyles}>
+                      <i className="fa-solid fa-cart-shopping"></i>
+                      <p>GO TO CART</p>
+                    </NavLink>
+                  </>
                 ) : (
-                  <button className="card__button" onClick={addToCart} style={buttonStyles}>
-                    <i className="fa-solid fa-cart-shopping"></i>
-                    <p>ADD TO CART</p>
-                  </button>
+                  <>
+                    <ItemCount count={count} setCount={setCount} stock={item.stock} />
+                    <button className="card__button" onClick={addToCart} style={buttonStyles}>
+                      <i className="fa-solid fa-cart-shopping"></i>
+                      <p>ADD TO CART</p>
+                    </button>
+                  </>
                 )}
               </div>
             </div>

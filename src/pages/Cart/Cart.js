@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { CartContext } from "../../context/CartProvider";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
-import ItemCount from "../../components/ItemCount/ItemCount";
 import moment from "moment";
 import "./Cart.css";
 
