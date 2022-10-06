@@ -324,3 +324,11 @@ i {
   margin-bottom: 10px;
   cursor: pointer;
 }
+
+.back i {
+  font-size: 12px;
+}
+
+.back p {
+  padding-top: 2px;
+}

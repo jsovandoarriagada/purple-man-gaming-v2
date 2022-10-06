@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { CartContext } from "../../context/CartProvider";
 import ItemCount from "../ItemCount/ItemCount";
 import "./ItemDetail.css";
@@ -8,7 +8,6 @@ const ItemDetail = ({ item }) => {
   const [count, setCount] = useState(1);
   const [stock, setStock] = useState(0);
   const { isInCart, addItem } = useContext(CartContext);
-  const back = useNavigate();
 
   const buttonStyles = isInCart(item)
     ? { backgroundColor: "#da1106", color: "#ffffff" }
@@ -25,10 +24,10 @@ const ItemDetail = ({ item }) => {
   return (
     <div className="details">
       <div className="details__header">
-        <div className="back" onClick={() => back(-1)}>
-          <i className="fa-solid fa-rotate-left"></i>
-          <p>BACK</p>
-        </div>
+        <NavLink to={"/"} className="back">
+          <i class="fa-solid fa-house"></i>
+          <p>BACK TO HOME</p>
+        </NavLink>
         <p className="details__title">{item.name}</p>
       </div>
       <div className="details__container">
@@ -83,10 +82,17 @@ const ItemDetail = ({ item }) => {
                 <div className="card__display">
                   <div className="card__cost">
                     <p className="card__discount">{item.discount}</p>
-                    <div className="card__price">
-                      <p className="card__price--base">${item.basePrice} USD</p>
-                      <p className="card__price--final">${item.finalPrice} USD</p>
-                    </div>
+                    {isInCart(item) ? (
+                      <div className="card__price">
+                        <p className="card__price--base">${item.basePrice * isInCart(item).quantity} USD</p>
+                        <p className="card__price--final">${item.finalPrice * isInCart(item).quantity} USD</p>
+                      </div>
+                    ) : (
+                      <div className="card__price">
+                        <p className="card__price--base">${item.basePrice * count} USD</p>
+                        <p className="card__price--final">${item.finalPrice * count} USD</p>
+                      </div>
+                    )}
                   </div>
                   <div className="card__platform">
                     <img className="card__platform--img" src={item.platformLogo} alt={item.platform} />

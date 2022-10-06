@@ -18,12 +18,8 @@ const Item = ({ name, productImage, discount, basePrice, finalPrice, platform, p
             <div className="product__cost">
               <p className="product__discount">{discount}</p>
               <div className="product__price">
-                <p className="product__price--base">
-                  <span>${basePrice}</span> USD
-                </p>
-                <p className="product__price--final">
-                  <span>${finalPrice}</span> USD
-                </p>
+                <p className="product__price--base">${basePrice} USD</p>
+                <p className="product__price--final">${finalPrice} USD</p>
               </div>
             </div>
             <div className="product__platform">
