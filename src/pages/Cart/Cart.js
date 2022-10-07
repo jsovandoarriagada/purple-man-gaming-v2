@@ -67,7 +67,7 @@ const Cart = () => {
           ) : (
             <div className="cart__empty">
               <NavLink to={"/"} className="back">
-                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-shop"></i>
                 <p>BACK TO HOME</p>
               </NavLink>
               <p className="empty">YOUR CART IS EMPTY</p>
