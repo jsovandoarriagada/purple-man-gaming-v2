@@ -318,7 +318,7 @@ i {
   justify-items: flex-start;
   align-items: center;
   gap: 5px;
-  color: #a153f9;
+  color: #a153f9 !important;
   font-weight: bold;
   width: 100%;
   margin-bottom: 10px;

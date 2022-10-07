@@ -25,7 +25,7 @@ const ItemDetail = ({ item }) => {
     <div className="details">
       <div className="details__header">
         <NavLink to={"/"} className="back">
-          <i class="fa-solid fa-house"></i>
+          <i class="fa-solid fa-shop"></i>
           <p>BACK TO HOME</p>
         </NavLink>
         <p className="details__title">{item.name}</p>
