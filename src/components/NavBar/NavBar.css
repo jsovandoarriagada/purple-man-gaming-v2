@@ -62,14 +62,17 @@
 .header a {
   color: #161618;
   font-weight: bold;
+  transition: all 0.4s;
 }
 
-.underline {
-  text-decoration: underline 3px;
-  text-underline-offset: 3px;
-  font-weight: bold;
+.header a:hover {
+  color: #ffffff !important;
 }
 
-.none {
-  font-weight: bold;
+.active {
+  color: #ffffff !important;
+}
+
+.unactive {
+  color: #161618 !important;
 }
