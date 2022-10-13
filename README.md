@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://github.com/jsovandoarriagada/purple-man-gaming-v2">
     <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="80" height="80">
