@@ -39,7 +39,7 @@
 ### Demo
 
 <p align="center">
-  <img src="[http://some_place.com/image.png](https://i.ibb.co/TMrcgtJ/demo.gif)" />
+  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 
 ### Built With
