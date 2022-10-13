@@ -11,6 +11,7 @@
 <p><b>Table of Contents:</b></p>
 <ol>
   <li>
+    <a href="#about-the-project">Author</a>
     <a href="#about-the-project">About The Project</a>
     <ul>
       <li><a href="#built-with">Built With</a></li>
@@ -26,6 +27,9 @@
   <li><a href="#demo">Demo</a></li>
   <li><a href="#contact">Contact</a></li>
 </ol>
+
+<!-- AUTHOR -->
+## Author
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
