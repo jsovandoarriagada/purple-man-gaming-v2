@@ -42,6 +42,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![CSS3][CSS3]][CSS3-url]
 * [![JavaScript][JavaScript]][JavaScript-url]
 * [![React][React]][React-url]
+* [![Firebase][Firebase]][Firebase-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,6 +108,10 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 [JavaScript-url]: https://www.javascript.com/
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
+[Firebase-url]: https://firebase.google.com/
+
+
 
 
 
