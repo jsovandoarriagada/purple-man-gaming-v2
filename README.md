@@ -32,7 +32,8 @@
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
-### Built With
+<!-- BUILT WITH -->
+## Built With
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
