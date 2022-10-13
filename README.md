@@ -36,7 +36,7 @@
   <img src="https://i.ibb.co/9V3VjH0/purple-man-gaming.jpg" />
 </p>
 
-<em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course, and the continuation and improvement of my final project for the Javascript course (you can check this version by clicking <a href="https://jsovandoarriagada.github.io/purple-man-gaming/">here</a>).
+<em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course, and the continuation and improvement of my final project for the Javascript course (you can check this version <a href="https://jsovandoarriagada.github.io/purple-man-gaming/">here</a>).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
