@@ -5,11 +5,11 @@
   <a href="https://github.com/jsovandoarriagada/purple-man-gaming-v2">
     <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Purple Man Gaming v2</h3>
+  <h2 align="center">Purple Man Gaming v2</h2>
 </div>
 <br />
 <!-- TABLE OF CONTENTS -->
-<p><ins>Table of Contents:</ins></p>
+<p><b>Table of Contents:</b></p>
 <ol>
   <li>
     <a href="#about-the-project">About The Project</a>
