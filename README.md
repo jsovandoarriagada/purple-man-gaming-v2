@@ -2,9 +2,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  
+  <a>
     <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="80" height="80">
-
+</a>
 
   <h3 align="center">Best-README-Template</h3>
 
