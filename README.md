@@ -40,6 +40,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![HTML5][HTML5]][HTML5-url]
 * [![CSS3][CSS3]][CSS3-url]
+* [![JavaScript][JavaScript]][JavaScript-url]
 * [![React][React]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,5 +102,11 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 [HTML5-url]: https://html5.org/
 [CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [CSS3-url]: https://www.w3.org/Style/CSS/Overview.en.html
+[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://www.javascript.com/
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+
+
+
+
