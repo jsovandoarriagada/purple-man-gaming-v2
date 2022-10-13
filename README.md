@@ -36,7 +36,7 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+<em>Purple Man Gaming v2</em> was created using the following technologies:
 
 * [![Photoshop][Photoshop]][Photoshop-url]
 * [![HTML5][HTML5]][HTML5-url]
