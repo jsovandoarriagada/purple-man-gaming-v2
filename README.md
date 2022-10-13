@@ -15,7 +15,7 @@
 2️⃣ <a href="#about-the-project">About The Project</a>\
 3️⃣ <a href="#built-with">Built With</a>\
 4️⃣ <a href="#getting-started">Getting Started</a>\
-5️⃣ <a href="#demo">Demo</a>\
+5️⃣ <a href="#usage">Usage</a>\
 6️⃣ <a href="#contact">Contact</a>
 
 <!-- AUTHOR -->
@@ -59,17 +59,21 @@
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
-<!-- DEMO -->
-## Demo
+<!-- USAGE -->
+## Usage
 <p>👉 Filter games by category:</p>
 <p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
-<p>👉 Filter games by category:</p>
+<p>👉 Add games to your cart:</p>
 <p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
-<p>👉 Filter games by category:</p>
+<p>👉 Delete a single game and clear the cart:</p>
+<p>
+  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
+</p>
+<p>👉 Delete a single game and clear the cart:</p>
 <p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
