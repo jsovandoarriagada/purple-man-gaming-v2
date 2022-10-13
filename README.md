@@ -62,15 +62,15 @@
 <!-- DEMO -->
 ## Demo
 <p>👉 Filter games by category:</p>
-<p align="left">
+<p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 <p>👉 Filter games by category:</p>
-<p align="center">
+<p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 <p>👉 Filter games by category:</p>
-<p align="right">
+<p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 
