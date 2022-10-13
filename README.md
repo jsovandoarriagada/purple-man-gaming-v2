@@ -113,7 +113,7 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [Firebase-url]: https://firebase.google.com/
-[Photoshop]: https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
+[Photoshop]: https://img.shields.io/badge/photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 
 
