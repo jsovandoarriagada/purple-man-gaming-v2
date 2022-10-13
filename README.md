@@ -44,15 +44,15 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-👉 Clone the repository:
+1️⃣ Clone the repository:
    ```sh
    git clone https://github.com/jsovandoarriagada/purple-man-gaming-v2.git
    ```
-👉 Install npm packages:
+2️⃣ Install npm packages:
    ```sh
    npm install
    ```
-👉 Run the app:
+3️⃣ Run the app:
    ```sh
    npm start
    ```
