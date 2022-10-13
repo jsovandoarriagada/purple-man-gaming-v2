@@ -83,7 +83,7 @@
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [Firebase-url]: https://firebase.google.com/
-[Photoshop]: https://img.shields.io/badge/photoshop-039BE5?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
+[Photoshop]: https://img.shields.io/badge/photoshop-001e36?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-gray?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
