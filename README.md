@@ -65,6 +65,14 @@
 <p align="center">
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
+<p>👉 Filter games by category:</p>
+<p align="center">
+  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
+</p>
+<p>👉 Filter games by category:</p>
+<p align="center">
+  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
+</p>
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
