@@ -17,7 +17,7 @@
     </ul>
    </li>
    <li><a href="#getting-started">Getting Started</a></li>
-   <li><a href="#dusage">Usage</a></li>
+   <li><a href="#demo">Demo</a></li>
    <li><a href="#contact">Contact</a></li>
 </ol>
 
@@ -68,8 +68,8 @@ To get a local copy up and running follow these simple example steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE -->
-## Usage
+<!-- DEMO -->
+## Demo
 
 <p align="center">
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
