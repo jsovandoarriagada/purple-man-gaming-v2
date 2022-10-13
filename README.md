@@ -10,26 +10,13 @@
 
 <!-- TABLE OF CONTENTS -->
 <h3>Table of Contents:</h3>
-<ol>
-  <li><a href="#author">Author</a></li>
-  <li>
-    <a href="#about-the-project">About The Project</a>
-    <ul>
-      <li><a href="#built-with">Built With</a></li>
-    </ul>
-   </li>
-   <li><a href="#getting-started">Getting Started</a></li>
-   <li><a href="#demo">Demo</a></li>
-   <li><a href="#contact">Contact</a></li>
-</ol>
 
 1️⃣ <a href="#author">Author</a>.\
-2️⃣ .\
-3️⃣ .\
-4️⃣ .\
-5️⃣ .\
-6️⃣ .\
-7️⃣ .
+2️⃣ <a href="#about-the-project">About The Project</a>.\
+3️⃣ <a href="#built-with">Built With</a>.\
+4️⃣ <a href="#getting-started">Getting Started</a>.\
+5️⃣ <a href="#demo">Demo</a>.\
+6️⃣ <a href="#contact">Contact</a>.\
 
 <!-- AUTHOR -->
 ## Author
