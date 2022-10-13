@@ -28,7 +28,7 @@
 
 👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">👆 Back to top</a></p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -56,15 +56,15 @@
 
 👉 To get a local copy up and running follow these simple example steps:
 
-1️⃣ Clone the repository
+1️⃣ Clone the repository.
    ```sh
    git clone https://github.com/jsovandoarriagada/purple-man-gaming-v2.git
    ```
-2️⃣ Install npm packages
+2️⃣ Install npm packages.
    ```sh
    npm install
    ```
-3️⃣ Run the app
+3️⃣ Run the app.
    ```sh
    npm start
    ```
