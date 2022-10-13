@@ -37,7 +37,7 @@
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![Photoshop][Photoshop]][Photoshop-url] [![HTML5][HTML5]][HTML5-url] [![CSS3][CSS3]][CSS3-url] [![JavaScript][JavaScript]][JavaScript-url] [![React][React]][React-url] [![Firebase][Firebase]][Firebase-url] 
+[![Photoshop][Photoshop]][Photoshop-url] [![HTML5][HTML5]][HTML5-url] [![CSS3][CSS3]][CSS3-url] [![JavaScript][JavaScript]][JavaScript-url] [![React][React]][React-url] [![Firebase][Firebase]][Firebase-url] [![Moment.js][Moment.js]][Moment.js-url] 
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
@@ -91,6 +91,8 @@
 [Firebase-url]: https://firebase.google.com/
 [Photoshop]: https://img.shields.io/badge/photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
+[Moment.js]: https://img.shields.io/badge/Moment-blue?style=for-the-badge&logo=Clock&logoColor=white
+[Moment.js-url]: https://momentjs.com/
 
 
 
