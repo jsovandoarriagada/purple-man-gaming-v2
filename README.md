@@ -23,7 +23,7 @@
       <li><a href="#installation">Installation</a></li>
     </ul>
   </li>
-  <li><a href="#demo">Demo</a></li>
+  <li><a href="#usage">Usage</a></li>
   <li><a href="#contact">Contact</a></li>
 </ol>
 
@@ -81,8 +81,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- DEMO -->
-## Demo
+<!-- USAGE -->
+## Usage
 
 <p align="center">
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
