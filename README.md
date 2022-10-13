@@ -6,7 +6,6 @@
   </a>
   <h2 align="center">Purple Man Gaming v2</h2>
 </div>
-<br />
 <!-- TABLE OF CONTENTS -->
 <h3>Table of Contents:</h3>
 <ol>
