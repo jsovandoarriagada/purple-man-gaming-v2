@@ -37,7 +37,7 @@
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Firebase][Firebase]][Firebase-url] [![Moment.js][Moment.js]][Moment.js-url] [![SweetAlert2][SweetAlert2]][SweetAlert2-url] 
+[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![SweetAlert2][SweetAlert2]][SweetAlert2-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
@@ -79,12 +79,6 @@
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[HTML5-url]: https://html5.org/
-[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[CSS3-url]: https://www.w3.org/Style/CSS/Overview.en.html
-[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[JavaScript-url]: https://www.javascript.com/
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
