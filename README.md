@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/jsovandoarriagada/purple-man-gaming-v2">
@@ -6,6 +7,7 @@
   </a>
   <h2 align="center">Purple Man Gaming v2</h2>
 </div>
+
 <!-- TABLE OF CONTENTS -->
 <h3>Table of Contents:</h3>
 <ol>
@@ -20,7 +22,7 @@
    <li><a href="#demo">Demo</a></li>
    <li><a href="#contact">Contact</a></li>
 </ol>
-<h3></h3>
+
 <!-- AUTHOR -->
 ## Author
 
