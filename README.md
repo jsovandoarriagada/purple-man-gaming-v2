@@ -54,7 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-* npm
+Install all modules that are listed on package.json file and their dependencies
   ```sh
   npm install npm@latest -g
   ```
