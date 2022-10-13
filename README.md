@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/jsovandoarriagada/purple-man-gaming-v2">
-    <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="60" height="60">
+    <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="50" height="50">
   </a>
   <h2 align="center">Purple Man Gaming v2</h2>
 </div>
