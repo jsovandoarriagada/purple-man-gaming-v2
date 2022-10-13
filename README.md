@@ -20,7 +20,7 @@
    <li><a href="#demo">Demo</a></li>
    <li><a href="#contact">Contact</a></li>
 </ol>
-<hr />
+<h3></h3>
 <!-- AUTHOR -->
 ## Author
 
