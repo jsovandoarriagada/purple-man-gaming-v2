@@ -73,8 +73,8 @@ Install all modules that are listed on package.json file and their dependencies
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- DEMO -->
-## Demo
+<!-- USAGE -->
+## Usage
 
 <p align="center">
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
