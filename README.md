@@ -24,6 +24,8 @@
 <!-- AUTHOR -->
 ## Author
 
+👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
