@@ -38,15 +38,12 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
+* [![Photoshop][Photoshop]][Photoshop-url]
 * [![HTML5][HTML5]][HTML5-url]
 * [![CSS3][CSS3]][CSS3-url]
 * [![JavaScript][JavaScript]][JavaScript-url]
 * [![React][React]][React-url]
 * [![Firebase][Firebase]][Firebase-url]
-* [![Photoshop][Photoshop]][Photoshop-url]
-
-(https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
