@@ -10,7 +10,7 @@
 <br />
 <!-- TABLE OF CONTENTS -->
 
-  <p>Table of Contents</p>
+  <p><em>Table of Contents:</em></p>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
