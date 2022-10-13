@@ -78,7 +78,7 @@
 <!-- CONTACT -->
 ## Contact
 
-💡 José Simón Ovando Arriagada
+💡 José Simón Ovando Arriagada\
 ✉ jsovandoarriagada@gmail.com
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
