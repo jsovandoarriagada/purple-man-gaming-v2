@@ -92,9 +92,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+José Simón Ovando Arriagada - jsovandoarriagada@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https://github.com/jsovandoarriagada/purple-man-gaming-v2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
