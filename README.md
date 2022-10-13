@@ -6,12 +6,11 @@
     <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Purple Man Gaming v2</h3>
-  <p>👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.</p>
 </div>
 <br />
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+
+  <p>Table of Contents</p>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -30,7 +29,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
-</details>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
