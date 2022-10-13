@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/jsovandoarriagada/purple-man-gaming-v2">
-    <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://i.ibb.co/gWDVHGx/logo.png" alt="Logo" width="60" height="60">
   </a>
   <h2 align="center">Purple Man Gaming v2</h2>
 </div>
@@ -39,6 +39,8 @@
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![HTML5][HTML5]][HTML5-url]
+* [![CSS3][CSS3]][CSS3-url]
+* [![React][React]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,3 +99,7 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 <!-- MARKDOWN LINKS & IMAGES -->
 [HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://html5.org/
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS3-url]: https://www.w3.org/Style/CSS/Overview.en.html
+[React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
