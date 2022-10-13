@@ -47,13 +47,13 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
-1. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/jsovandoarriagada/purple-man-gaming-v2.git
    ```
-2. Install NPM packages
+2. Install npm packages
    ```sh
    npm install
    ```
