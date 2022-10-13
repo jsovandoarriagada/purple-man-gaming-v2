@@ -23,6 +23,14 @@
    <li><a href="#contact">Contact</a></li>
 </ol>
 
+1️⃣ <a href="#author">Author</a>.\
+2️⃣ .\
+3️⃣ .\
+4️⃣ .\
+5️⃣ .\
+6️⃣ .\
+7️⃣ .
+
 <!-- AUTHOR -->
 ## Author
 
@@ -41,13 +49,13 @@
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-1️⃣ [![HTML5][HTML5]][HTML5-url]\
-2️⃣ [![CSS3][CSS3]][CSS3-url]\
-3️⃣ [![JavaScript][JavaScript]][JavaScript-url]\
-4️⃣ [![React][React]][React-url]\
-5️⃣ [![Firebase][Firebase]][Firebase-url]\
-6️⃣ [![Photoshop][Photoshop]][Photoshop-url]v
-7️⃣ [![Vercel][Vercel]][Vercel-url]
+* [![HTML5][HTML5]][HTML5-url]
+* [![CSS3][CSS3]][CSS3-url]
+* [![JavaScript][JavaScript]][JavaScript-url]
+* [![React][React]][React-url]
+* [![Firebase][Firebase]][Firebase-url]
+* [![Photoshop][Photoshop]][Photoshop-url]
+* [![Vercel][Vercel]][Vercel-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
