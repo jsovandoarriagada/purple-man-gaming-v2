@@ -36,7 +36,7 @@
   <img src="https://i.ibb.co/9V3VjH0/purple-man-gaming.jpg" />
 </p>
 
-Purple Man Gaming is a fictional ecommerce modeled after the beautiful Green Man Gaming, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse React course.
+Purple Man Gaming is a fictional ecommerce modeled after the beautiful Green Man Gaming, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
