@@ -93,7 +93,7 @@
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-gray?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
-[SweetAlert2]: https://img.shields.io/badge/SweetAlert2-purple?style=for-the-badge&logo=Clockify&logoColor=white
+[SweetAlert2]: https://img.shields.io/badge/SweetAlert2-purple?style=for-the-badge&logo=openstack&logoColor=white
 [SweetAlert2-url]: https://sweetalert2.github.io/recipe-gallery/sweetalert2-react.html
 
 
