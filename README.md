@@ -42,7 +42,7 @@
 🔹 [![React][React]][React-url]\
 🔹 [![Firebase][Firebase]][Firebase-url]\
 🔹 [![Photoshop][Photoshop]][Photoshop-url]\
-🔹 [![Vercel][Vercel]][Vercel-url].
+🔹 [![Vercel][Vercel]][Vercel-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
