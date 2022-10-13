@@ -62,7 +62,7 @@
 <!-- DEMO -->
 ## Demo
 <p>👉 Filter games by category:</p>
-<p align="center">
+<p align="left">
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 <p>👉 Filter games by category:</p>
@@ -70,7 +70,7 @@
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 <p>👉 Filter games by category:</p>
-<p align="center">
+<p align="right">
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
 
