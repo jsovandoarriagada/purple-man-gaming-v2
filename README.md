@@ -43,6 +43,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![JavaScript][JavaScript]][JavaScript-url]
 * [![React][React]][React-url]
 * [![Firebase][Firebase]][Firebase-url]
+* [![Photoshop][Photoshop]][Photoshop-url]
+
+(https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +113,8 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [Firebase-url]: https://firebase.google.com/
-
+[Photoshop]: https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
+[Photoshop-url]: https://www.adobe.com/products/photoshop.html
 
 
 
