@@ -9,7 +9,8 @@
 </div>
 <br />
 <!-- TABLE OF CONTENTS -->
-### Table of Contents
+<p><b>Table of Contents:</b></p>
+<br />
 <ol>
   <li>
     <a href="#about-the-project">About The Project</a>
