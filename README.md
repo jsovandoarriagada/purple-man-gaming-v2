@@ -85,7 +85,7 @@
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-gray?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
-[HotToast]: https://img.shields.io/badge/Hot-Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
+[HotToast]: https://img.shields.io/badge/Hot_Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
 [HotToast-url]: https://react-hot-toast.com/
 
 
