@@ -39,7 +39,7 @@
 
 ### Built With
 
-<em>Purple Man Gaming v2</em> was created using the following technologies:
+👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
 * [![HTML5][HTML5]][HTML5-url]
 * [![CSS3][CSS3]][CSS3-url]
@@ -54,17 +54,17 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+👉 To get a local copy up and running follow these simple example steps:
 
-1. Clone the repository
+1️⃣ Clone the repository
    ```sh
    git clone https://github.com/jsovandoarriagada/purple-man-gaming-v2.git
    ```
-2. Install npm packages
+2️⃣ Install npm packages
    ```sh
    npm install
    ```
-3. Run the app
+3️⃣ Run the app
    ```sh
    npm start
    ```
