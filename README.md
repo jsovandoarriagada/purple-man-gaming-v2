@@ -40,8 +40,8 @@
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- INSTALLATION -->
+## Installation
 
 👉 To get a local copy up and running follow these simple steps:
 
