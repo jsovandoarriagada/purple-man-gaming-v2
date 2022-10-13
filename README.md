@@ -8,7 +8,7 @@
 </div>
 <br />
 <!-- TABLE OF CONTENTS -->
-<h3><b>Table of Contents:</b></h3>
+<h3>Table of Contents:</h3>
 <ol>
   <li>
     <a href="#about-the-project">Author</a>
