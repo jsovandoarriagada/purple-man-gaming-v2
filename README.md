@@ -16,7 +16,7 @@
 3️⃣ <a href="#built-with">Built With</a>\
 4️⃣ <a href="#getting-started">Getting Started</a>\
 5️⃣ <a href="#demo">Demo</a>\
-6️⃣ <a href="#contact">Contact</a>.
+6️⃣ <a href="#contact">Contact</a>
 
 <!-- AUTHOR -->
 ## Author
@@ -36,12 +36,12 @@
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-🔹 [![HTML5][HTML5]][HTML5-url].\
-🔹 [![CSS3][CSS3]][CSS3-url].\
-🔹 [![JavaScript][JavaScript]][JavaScript-url].\
-🔹 [![React][React]][React-url].\
-🔹 [![Firebase][Firebase]][Firebase-url].\
-🔹 [![Photoshop][Photoshop]][Photoshop-url].\
+🔹 [![HTML5][HTML5]][HTML5-url]\
+🔹 [![CSS3][CSS3]][CSS3-url]\
+🔹 [![JavaScript][JavaScript]][JavaScript-url]\
+🔹 [![React][React]][React-url]\
+🔹 [![Firebase][Firebase]][Firebase-url]\
+🔹 [![Photoshop][Photoshop]][Photoshop-url]\
 🔹 [![Vercel][Vercel]][Vercel-url].
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
@@ -51,15 +51,15 @@
 
 👉 To get a local copy up and running follow these simple example steps:
 
-1️⃣ Clone the repository.
+1️⃣ Clone the repository
    ```sh
    git clone https://github.com/jsovandoarriagada/purple-man-gaming-v2.git
    ```
-2️⃣ Install npm packages.
+2️⃣ Install npm packages
    ```sh
    npm install
    ```
-3️⃣ Run the app.
+3️⃣ Run the app
    ```sh
    npm start
    ```
