@@ -37,7 +37,7 @@
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![SweetAlert2][SweetAlert2]][SweetAlert2-url] [![Firebase][Firebase]][Firebase-url]
+[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![HotToast][HotToast]][HotToast-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
@@ -85,8 +85,8 @@
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-gray?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
-[SweetAlert2]: https://img.shields.io/badge/SweetAlert2-purple?style=for-the-badge&logo=openstack&logoColor=white
-[SweetAlert2-url]: https://sweetalert2.github.io/recipe-gallery/sweetalert2-react.html
+[HotToast]: https://img.shields.io/badge/HotToast-red?style=for-the-badge&logo=Hetzner&logoColor=white
+[HotToast-url]: https://react-hot-toast.com/
 
 
 
