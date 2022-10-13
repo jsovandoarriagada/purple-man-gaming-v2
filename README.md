@@ -78,9 +78,8 @@
 <!-- CONTACT -->
 ## Contact
 
-José Simón Ovando Arriagada - jsovandoarriagada@gmail.com
-
-Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https://github.com/jsovandoarriagada/purple-man-gaming-v2)
+💡 José Simón Ovando Arriagada
+✉ jsovandoarriagada@gmail.com
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
