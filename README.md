@@ -44,17 +44,15 @@
 <!-- INSTALLATION -->
 ## Installation
 
-👉 To get a local copy up and running follow these simple steps:
-
-1️⃣ Clone the repository
+👉 Clone the repository
    ```sh
    git clone https://github.com/jsovandoarriagada/purple-man-gaming-v2.git
    ```
-2️⃣ Install npm packages
+👉 Install npm packages
    ```sh
    npm install
    ```
-3️⃣ Run the app
+👉 Run the app
    ```sh
    npm start
    ```
