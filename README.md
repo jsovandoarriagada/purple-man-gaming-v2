@@ -14,7 +14,7 @@
 1️⃣ <a href="#author">Author</a>\
 2️⃣ <a href="#about-the-project">About The Project</a>\
 3️⃣ <a href="#built-with">Built With</a>\
-4️⃣ <a href="#instalattion">Installation</a>\
+4️⃣ <a href="#installation">Installation</a>\
 5️⃣ <a href="#demo">Demo</a>\
 6️⃣ <a href="#contact">Contact</a>
 
