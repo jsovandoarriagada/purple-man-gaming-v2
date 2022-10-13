@@ -47,6 +47,7 @@
 * [![React][React]][React-url]
 * [![Firebase][Firebase]][Firebase-url]
 * [![Photoshop][Photoshop]][Photoshop-url]
+* [![Vercel][Vercel]][Vercel-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,6 +102,8 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 [Firebase-url]: https://firebase.google.com/
 [Photoshop]: https://img.shields.io/badge/photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
+[Vercel]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://vercel.com/
 
 
 
