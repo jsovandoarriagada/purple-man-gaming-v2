@@ -13,8 +13,8 @@
   <li>
     <a href="#about-the-project">About The Project</a>
     <ul>
-      <li><a href="#demo">Demo</a></li>
       <li><a href="#built-with">Built With</a></li>
+      <li><a href="#demo">Demo</a></li>
     </ul>
    </li>
    <li>
@@ -28,19 +28,12 @@
   <li><a href="#contact">Contact</a></li>
 </ol>
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course, and the continuation and improvement of my final project for the Javascript course (you can check that version <a href="https://jsovandoarriagada.github.io/purple-man-gaming/">here</a>).
+<em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Demo
-
-<p align="center">
-  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
-</p>
 
 ### Built With
 
@@ -54,6 +47,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Demo
+
+<p align="center">
+  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
