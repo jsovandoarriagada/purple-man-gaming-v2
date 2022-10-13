@@ -38,11 +38,7 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![React][React.js]][React-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+* [![HTML5][HTML5]][HTML5-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,5 +95,5 @@ Project Link: [https://github.com/jsovandoarriagada/purple-man-gaming-v2](https:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[React.js]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[React-url]: https://reactjs.org/
+[HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML5-url]: https://html5.org/
