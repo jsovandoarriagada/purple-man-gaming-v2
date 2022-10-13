@@ -8,6 +8,7 @@
   <h3 align="center">Purple Man Gaming v2</h3>
   <p>👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.</p>
 </div>
+<br />
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
