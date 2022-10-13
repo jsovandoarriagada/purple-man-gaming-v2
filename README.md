@@ -36,7 +36,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://i.ibb.co/8DxcPxf/purple-man-gaming-v2-1.jpg" />
+  <img src="https://i.ibb.co/9V3VjH0/purple-man-gaming.jpg" />
 </p>
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
