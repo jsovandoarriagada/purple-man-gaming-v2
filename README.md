@@ -73,10 +73,6 @@
 <p>
   <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
 </p>
-<p>👉 Delete a single game and clear the cart:</p>
-<p>
-  <img src="https://i.ibb.co/TMrcgtJ/demo.gif" />
-</p>
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
