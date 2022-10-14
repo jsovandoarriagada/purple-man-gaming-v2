@@ -17,7 +17,7 @@
 4️⃣ <a href="#getting-started">Getting Started</a>\
 5️⃣ <a href="#usage">Usage</a>\
 6️⃣ <a href="#license">License</a>\
-7️⃣ <a href="#contact">Contact</a>\ 
+7️⃣ <a href="#contact">Contact</a>\
 8️⃣ <a href="#acknowledgments">Acknowledgments</a>
 
 <!-- AUTHOR -->
