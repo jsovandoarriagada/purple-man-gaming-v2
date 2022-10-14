@@ -37,7 +37,7 @@
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![Hot-Toast][HotToast]][HotToast-url] [![Firebase][Firebase]][Firebase-url]
+[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
@@ -93,8 +93,7 @@
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-gray?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
-[HotToast]: https://img.shields.io/badge/Hot_Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
-[HotToast-url]: https://react-hot-toast.com/
+
 
 
 
