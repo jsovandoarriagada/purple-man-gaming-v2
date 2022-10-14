@@ -113,6 +113,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Gmail-url]: mailto:jsovandoarriagada@gmail.com
 [Linkedin]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [Linkedin-url]: https://www.linkedin.com/in/jsovandoarriagada/
-
-
-
