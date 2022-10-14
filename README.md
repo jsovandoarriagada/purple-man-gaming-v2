@@ -63,7 +63,7 @@
 ## Usage
 <p>👉 Filter games by category:</p>
 <p>
-  <img src="https://i.ibb.co/31sfs36/bandicam-2022-10-14-07-30-20-520.gif" />
+  <img src="https://i.imgur.com/gOomhc6.gifv" />
 </p>
 <p>👉 Add games to your cart:</p>
 <p>
