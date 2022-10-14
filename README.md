@@ -12,9 +12,9 @@
 <h3>Table of Contents:</h3>
 
 1️⃣ <a href="#author">Author</a>\
-2️⃣ <a href="#about-the-project">About The Project</a>\
-3️⃣ <a href="#built-with">Built With</a>\
-4️⃣ <a href="#getting-started">Getting Started</a>\
+2️⃣ <a href="#about-the-project">About the project</a>\
+3️⃣ <a href="#built-with">Built with</a>\
+4️⃣ <a href="#getting-started">Getting started</a>\
 5️⃣ <a href="#usage">Usage</a>\
 6️⃣ <a href="#license">License</a>\
 7️⃣ <a href="#contact">Contact</a>\
