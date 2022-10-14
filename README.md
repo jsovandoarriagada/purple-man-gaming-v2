@@ -17,7 +17,8 @@
 4️⃣ <a href="#getting-started">Getting Started</a>\
 5️⃣ <a href="#usage">Usage</a>\
 6️⃣ <a href="#license">License</a>\
-7️⃣ <a href="#contact">Contact</a>
+7️⃣ <a href="#contact">Contact</a>\ 
+8️⃣ <a href="#acknowledgments">Acknowledgments</a>
 
 <!-- AUTHOR -->
 ## Author
@@ -89,6 +90,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 📛 José Simón Ovando Arriagada\
 ✉ jsovandoarriagada@gmail.com
+
+<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+👉 Professor: <a href="https://github.com/JuanMagos">Juan Magos</a>.
+👉 Tutor: <a href="https://github.com/enzo-agu">Enzo Agú</a>.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
