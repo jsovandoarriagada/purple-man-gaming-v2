@@ -96,7 +96,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-👉 Professor: <a href="https://github.com/JuanMagos">Juan Magos</a>.
+👉 Professor: <a href="https://github.com/JuanMagos">Juan Magos</a>.\
 👉 Tutor: <a href="https://github.com/enzo-agu">Enzo Agú</a>.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
