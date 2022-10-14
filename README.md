@@ -100,7 +100,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->i
+<!-- MARKDOWN LINKS & IMAGES -->
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
