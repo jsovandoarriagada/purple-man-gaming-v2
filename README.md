@@ -25,14 +25,14 @@
 
 👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 💡 <em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course, and the continuation and improvement of my final project for the Javascript course (you can check that version <a href="https://jsovandoarriagada.github.io/purple-man-gaming/">here</a>).
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- BUILT WITH -->
 ## Built With
