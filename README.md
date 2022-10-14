@@ -16,7 +16,8 @@
 3️⃣ <a href="#built-with">Built With</a>\
 4️⃣ <a href="#getting-started">Getting Started</a>\
 5️⃣ <a href="#usage">Usage</a>\
-6️⃣ <a href="#contact">Contact</a>
+6️⃣ <a href="#license">License</a>
+7️⃣ <a href="#contact">Contact</a>
 
 <!-- AUTHOR -->
 ## Author
@@ -73,6 +74,13 @@
 <p>
   <img src="https://i.ibb.co/p29h010/remove-and-clear.gif" />
 </p>
+
+<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
