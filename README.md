@@ -63,15 +63,15 @@
 ## Usage
 <p>👉 Filter games by category:</p>
 <p>
-  <img src="https://i.imgur.com/gOomhc6.gifv" />
+  <img src="https://i.imgur.com/gOomhc6.gif" />
 </p>
 <p>👉 Add games to your cart:</p>
 <p>
-  <img src="https://i.ibb.co/r3V14gk/bandicam-2022-10-14-07-31-52-321.gif" />
+  <img src="https://i.imgur.com/NWSC5Da.gif" />
 </p>
 <p>👉 Delete a single game and clear the cart:</p>
 <p>
-  <img src="https://i.ibb.co/60FzZGm/bandicam-2022-10-14-07-32-40-582.gif" />
+  <img src="https://i.imgur.com/WwAEMix.gif" />
 </p>
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
