@@ -88,8 +88,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-📛 José Simón Ovando Arriagada\
-✉ jsovandoarriagada@gmail.com
+[![Gmail][Gmail]][Gmail-url] [![Linkedin][Linkedin]][Linkedin-url] 
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
@@ -101,7 +100,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- MARKDOWN LINKS & IMAGES -->i
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
@@ -110,7 +109,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-red?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
-
+[Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Gmail-url]: jsovandoarriagada@gmail.com
+[Linkedin]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[Linkedin-url]: https://www.linkedin.com/in/jsovandoarriagada/
 
 
 
