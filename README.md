@@ -41,7 +41,7 @@
 
 [![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -59,7 +59,7 @@
    npm start
    ```
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- USAGE -->
 ## Usage
@@ -76,21 +76,21 @@
   <img src="https://i.ibb.co/p29h010/remove-and-clear.gif" />
 </p>
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- CONTACT -->
 ## Contact
 
 [![Gmail][Gmail]][Gmail-url] [![Linkedin][Linkedin]][Linkedin-url] 
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -98,7 +98,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 👉 Professor: <a href="https://github.com/JuanMagos">Juan Magos</a>.\
 👉 Tutor: <a href="https://github.com/enzo-agu">Enzo Agú</a>.
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white
