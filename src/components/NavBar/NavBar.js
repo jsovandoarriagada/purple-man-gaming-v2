@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-import UserWidget from "../UserWidget/UserWidget";
-import OrdersWidget from "../OrdersWidget/OrdersWidget";
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
 
@@ -12,8 +10,6 @@ const NavBar = () => {
           <img className="header__logo" src="https://i.ibb.co/gWDVHGx/logo.png" alt="Purple Man Gaming" />
         </NavLink>
         <div className="header__menu">
-          <UserWidget />
-          <OrdersWidget />
           <CartWidget />
         </div>
       </div>

@@ -29,7 +29,7 @@ const Cart = () => {
       })
       .catch((error) => {
         console.log(error);
-      });
+      }).finally(() => clear());
   };
 
   return (

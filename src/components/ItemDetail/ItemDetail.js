@@ -104,7 +104,7 @@ const ItemDetail = ({ item }) => {
                     <div className="card__counter">
                       <p className="card__counter--display">x{isInCart(item).quantity}</p>
                     </div>
-                    <NavLink to={"/cart"} className="card__button" style={buttonStyles}>
+                    <NavLink to={"/cart"} className="card__button card__button--go" style={buttonStyles}>
                       <i className="fa-solid fa-cart-shopping"></i>
                       <p>GO TO CART</p>
                     </NavLink>
@@ -112,7 +112,7 @@ const ItemDetail = ({ item }) => {
                 ) : (
                   <>
                     <ItemCount count={count} setCount={setCount} stock={item.stock} />
-                    <button className="card__button" onClick={addToCart} style={buttonStyles}>
+                    <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
                       <i className="fa-solid fa-cart-shopping"></i>
                       <p>ADD TO CART</p>
                     </button>
