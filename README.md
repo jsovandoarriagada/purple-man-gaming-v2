@@ -9,12 +9,12 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<h3>Table of Contents:</h3>
+<h3>Table of contents:</h3>
 
 1️⃣ <a href="#author">Author</a>\
-2️⃣ <a href="#about-the-project">About The Project</a>\
-3️⃣ <a href="#built-with">Built With</a>\
-4️⃣ <a href="#getting-started">Getting Started</a>\
+2️⃣ <a href="#about-the-project">About the project</a>\
+3️⃣ <a href="#built-with">Built with</a>\
+4️⃣ <a href="#getting-started">Getting started</a>\
 5️⃣ <a href="#usage">Usage</a>\
 6️⃣ <a href="#license">License</a>\
 7️⃣ <a href="#contact">Contact</a>\
@@ -25,26 +25,26 @@
 
 👋 Hi, my name is José Simón Ovando Arriagada, I'm Chilean and I aspire to be a frontend developer.
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About the project
 
 💡 <em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course, and the continuation and improvement of my final project for the Javascript course (you can check that version <a href="https://jsovandoarriagada.github.io/purple-man-gaming/">here</a>).
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- BUILT WITH -->
-## Built With
+## Built with
 
 👉 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
 [![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting started
 
 1️⃣ Clone the repository:
    ```sh
@@ -59,7 +59,7 @@
    npm start
    ```
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- USAGE -->
 ## Usage
@@ -76,21 +76,21 @@
   <img src="https://i.ibb.co/p29h010/remove-and-clear.gif" />
 </p>
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- CONTACT -->
 ## Contact
 
 [![Gmail][Gmail]][Gmail-url] [![Linkedin][Linkedin]][Linkedin-url] 
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -98,7 +98,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 👉 Professor: <a href="https://github.com/JuanMagos">Juan Magos</a>.\
 👉 Tutor: <a href="https://github.com/enzo-agu">Enzo Agú</a>.
 
-<p align="right">👆 <a href="#readme-top">Back to top</a>.</p>
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white
