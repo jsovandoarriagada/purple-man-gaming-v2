@@ -109,7 +109,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [HotToast]: https://img.shields.io/badge/Hot_Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
 [HotToast-url]: https://react-hot-toast.com/
-[Moment.js]: https://img.shields.io/badge/Moment.js-red?style=for-the-badge&logo=Clockify&logoColor=white
+[Moment.js]: https://img.shields.io/badge/Moment.js-green?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
 [Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [Gmail-url]: mailto:jsovandoarriagada@gmail.com
