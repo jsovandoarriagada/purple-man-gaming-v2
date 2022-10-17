@@ -9,6 +9,7 @@ import "./Cart.css";
 
 const Cart = () => {
   const { cart, removeItem, clear, fullPrice, discount, total } = useContext(CartContext);
+  const [userInfo, setUserInfo] = useState({ name: "", phoneNumber: "", email: "", confirmEmail: "" });
   const [modal, setModal] = useState(false);
   const db = getFirestore();
 
@@ -18,12 +19,78 @@ const Cart = () => {
     textDecorationThickness: "2px",
   };
 
+  const handleChange = (event) => {
+    const { value, id } = event.target;
+    setUserInfo({ ...userInfo, [id]: value });
+  };
+
+  const handleProceed = (event) => {
+    event.preventDefault();
+    if (
+      userInfo.name.trim() === "" &&
+      userInfo.phoneNumber.trim() === "" &&
+      userInfo.email.trim() === "" &&
+      userInfo.confirmEmail.trim() === ""
+    ) {
+      return toast
+        .error(`YOU MUST FILL\nIN ALL FIELDS`, {
+          style: {
+            borderRadius: "0",
+            background: "#2d2d2f",
+            maxWidth: "100%",
+            color: "#ffffff",
+            textAlign: "center",
+          },
+        })
+        .then(() => {
+          return;
+        });
+    }
+    if (
+      userInfo.name.trim() === "" ||
+      userInfo.phoneNumber.length < 9 ||
+      userInfo.email.trim() === "" ||
+      userInfo.confirmEmail.trim() === ""
+    ) {
+      return toast
+        .error(`ONE OR MORE FIELDS WERE OMITED\nOR ENTERED INCORRECTLY`, {
+          style: {
+            borderRadius: "0",
+            background: "#2d2d2f",
+            maxWidth: "100%",
+            color: "#ffffff",
+            textAlign: "center",
+          },
+        })
+        .then(() => {
+          return;
+        });
+    }
+    if (userInfo.email !== userInfo.confirmEmail) {
+      return toast
+        .error(`THE EMAILS ENTERED DON'T MATCH`, {
+          style: {
+            borderRadius: "0",
+            background: "#2d2d2f",
+            maxWidth: "100%",
+            color: "#ffffff",
+            textAlign: "center",
+          },
+        })
+        .then(() => {
+          return;
+        });
+    }
+    createOrder();
+  };
+
   const createOrder = () => {
     const order = {
       buyer: {
-        name: "",
-        phone: "",
-        email: "",
+        name: userInfo.name,
+        phoneNumer: userInfo.phoneNumber,
+        email: userInfo.email,
+        confirmEmail: userInfo.confirmEmail,
       },
       items: cart,
       total: cart.reduce((previous, current) => previous + current.finalPrice * current.quantity, 0),
@@ -126,10 +193,21 @@ const Cart = () => {
                   CONTINUE
                 </button>
               )}
-              {modal && <FormModal createOrder={createOrder} openModal={setModal} />}
+              {modal && (
+                <FormModal
+                  userInfo={userInfo}
+                  setModal={setModal}
+                  handleChange={handleChange}
+                  handleProceed={handleProceed}
+                  createOrder={createOrder}
+                />
+              )}
               <Toaster
                 containerStyle={{
                   top: 10,
+                }}
+                toastOptions={{
+                  duration: 4000,
                 }}
               />
               <button className="summary__clear" onClick={clear}>
