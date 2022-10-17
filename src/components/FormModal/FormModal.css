@@ -56,14 +56,14 @@
   width: 100%;
   background: none;
   color: #ffffff;
+  border-radius: 0;
   border: none;
   border-bottom: 1px solid gray;
 }
 
-.modal__form input:focus, 
-.modal__form select:hover {
+.modal__form input:focus {
   outline: none;
-  background: none;
+
 }
 
 .modal__form input::placeholder {
