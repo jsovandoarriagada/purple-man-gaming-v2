@@ -50,7 +50,9 @@ const Cart = () => {
       userInfo.name.trim() === "" ||
       userInfo.phoneNumber.length < 9 ||
       userInfo.email.trim() === "" ||
-      userInfo.confirmEmail.trim() === ""
+      userInfo.confirmEmail.trim() === "" ||
+      !userInfo.email.trim().includes("@") ||
+      !userInfo.confirmEmail.trim().includes("@")
     ) {
       return toast
         .error(`ONE OR MORE FIELDS WERE OMITED\nOR ENTERED INCORRECTLY`, {
