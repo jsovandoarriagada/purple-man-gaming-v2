@@ -127,7 +127,11 @@ const Cart = () => {
                 </button>
               )}
               {modal && <FormModal createOrder={createOrder} openModal={setModal} />}
-              <Toaster />
+              <Toaster
+                containerStyle={{
+                  top: 10,
+                }}
+              />
               <button className="summary__clear" onClick={clear}>
                 CLEAR
               </button>
