@@ -13,6 +13,12 @@ const Cart = () => {
   const [modal, setModal] = useState(false);
   const db = getFirestore();
 
+  const disabledButton = {
+    textDecoration: "line-through",
+    textDecorationColor: "#161618",
+    textDecorationThickness: "2px",
+  };
+
   const handleChange = (event) => {
     const { value, id } = event.target;
     setUserInfo({ ...userInfo, [id]: value });
@@ -173,14 +179,20 @@ const Cart = () => {
               <p className="summary__total--value">${total} USD</p>
             </div>
             <div className="summary__buttons">
-              <button
-                className="summary__continue"
-                onClick={() => {
-                  setModal(true);
-                }}
-              >
-                CONTINUE
-              </button>
+              {cart.length > 0 ? (
+                <button
+                  className="summary__continue"
+                  onClick={() => {
+                    setModal(true);
+                  }}
+                >
+                  CONTINUE
+                </button>
+              ) : (
+                <button className="summary__continue" style={disabledButton}>
+                  CONTINUE
+                </button>
+              )}
               {modal && (
                 <FormModal
                   userInfo={userInfo}

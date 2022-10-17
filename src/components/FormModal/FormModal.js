@@ -1,6 +1,12 @@
 import "./FormModal.css";
 
 function FormModal({ userInfo, setModal, handleChange, handleProceed }) {
+  const disabledButton = {
+    textDecoration: "line-through",
+    textDecorationColor: "#161618",
+    textDecorationThickness: "2px",
+  };
+
   return (
     <div className="modal">
       <div className="modal__container">
