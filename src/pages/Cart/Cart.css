@@ -105,7 +105,7 @@
   gap: 1rem;
 }
 
-.summary__proceed,
+.summary__continue,
 .summary__clear {
   display: flex;
   flex-direction: row;
@@ -120,7 +120,7 @@
   border: none;
 }
 
-.summary__proceed {
+.summary__continue {
   background-color: #a153f9;
   color: #161618;
   margin-left: 1rem;

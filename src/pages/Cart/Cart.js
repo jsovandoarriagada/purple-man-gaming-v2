@@ -1,20 +1,29 @@
-import { useContext } from "react";
+import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartProvider";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
 import { NavLink } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
+import FormModal from "../../components/FormModal/FormModal";
 import moment from "moment";
 import "./Cart.css";
 
 const Cart = () => {
   const { cart, removeItem, clear, fullPrice, discount, total } = useContext(CartContext);
+  const [modal, setModal] = useState(false);
   const db = getFirestore();
+
+  const disabledButton = {
+    textDecoration: "line-through",
+    textDecorationColor: "#161618",
+    textDecorationThickness: "2px",
+  };
 
   const createOrder = () => {
     const order = {
       buyer: {
-        name: "Customer",
-        phone: "+56998877665",
-        email: "customer@customer.com",
+        name: "",
+        phone: "",
+        email: "",
       },
       items: cart,
       total: cart.reduce((previous, current) => previous + current.finalPrice * current.quantity, 0),
@@ -24,12 +33,22 @@ const Cart = () => {
     const query = collection(db, "orders");
     addDoc(query, order)
       .then(({ id }) => {
-        console.log(id);
-        alert("Successful purchase!");
+        toast.success(`YOUR PURCHASE ID IS:\n ${id}`, {
+          style: {
+            borderRadius: "0",
+            background: "#2d2d2f",
+            maxWidth: "100%",
+            color: "#ffffff",
+            textAlign: "center",
+            textTransform: "uppercase",
+          },
+        });
       })
       .catch((error) => {
         console.log(error);
-      }).finally(() => clear());
+      })
+      .then(setModal(false))
+      .finally(() => clear());
   };
 
   return (
@@ -93,9 +112,22 @@ const Cart = () => {
               <p className="summary__total--value">${total} USD</p>
             </div>
             <div className="summary__buttons">
-              <button className="summary__proceed" onClick={createOrder}>
-                PROCEED
-              </button>
+              {cart.length > 0 ? (
+                <button
+                  className="summary__continue"
+                  onClick={() => {
+                    setModal(true);
+                  }}
+                >
+                  CONTINUE
+                </button>
+              ) : (
+                <button className="summary__continue" style={disabledButton}>
+                  CONTINUE
+                </button>
+              )}
+              {modal && <FormModal createOrder={createOrder} openModal={setModal} />}
+              <Toaster />
               <button className="summary__clear" onClick={clear}>
                 CLEAR
               </button>

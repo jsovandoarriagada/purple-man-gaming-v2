@@ -118,6 +118,7 @@ const ItemDetail = ({ item }) => {
                     </button>
                   </>
                 )}
+               
               </div>
             </div>
           </div>
