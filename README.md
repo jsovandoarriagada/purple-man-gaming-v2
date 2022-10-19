@@ -89,7 +89,7 @@
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+💡 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
