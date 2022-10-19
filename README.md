@@ -38,7 +38,7 @@
 <!-- FEATURES -->
 ## Features
 
-💡 Persistent data (localStorage)
+💡 Persistent data (localStorage)\
 💡 Responsive 
 
 <!-- BUILT WITH -->
