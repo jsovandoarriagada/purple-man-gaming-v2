@@ -34,6 +34,9 @@ const Cart = () => {
     ) {
       return toast
         .error(`YOU MUST FILL\nIN ALL FIELDS`, {
+          iconTheme: {
+            primary: "#da1106",
+          },
           style: {
             borderRadius: "0",
             background: "#2d2d2f",
@@ -56,6 +59,9 @@ const Cart = () => {
     ) {
       return toast
         .error(`ONE OR MORE FIELDS WERE OMITED\nOR ENTERED INCORRECTLY`, {
+          iconTheme: {
+            primary: "#da1106",
+          },
           style: {
             borderRadius: "0",
             background: "#2d2d2f",
@@ -71,6 +77,9 @@ const Cart = () => {
     if (userInfo.email !== userInfo.confirmEmail) {
       return toast
         .error(`THE ENTERED EMAILS\nDON'T MATCH`, {
+          iconTheme: {
+            primary: "#da1106",
+          },
           style: {
             borderRadius: "0",
             background: "#2d2d2f",
@@ -102,7 +111,11 @@ const Cart = () => {
     const query = collection(db, "orders");
     addDoc(query, order)
       .then(({ id }) => {
-        toast.success(`YOUR PURCHASE ID IS:\n ${id}`, {
+        toast.success(`YOUR ORDER ID:\n ${id}`, {
+          iconTheme: {
+            primary: "#a153f9",
+          },
+          duration: 5000,
           style: {
             borderRadius: "0",
             background: "#2d2d2f",
