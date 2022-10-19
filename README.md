@@ -13,12 +13,13 @@
 
 1️⃣ <a href="#author">Author</a>\
 2️⃣ <a href="#about-the-project">About the project</a>\
-3️⃣ <a href="#built-with">Built with</a>\
-4️⃣ <a href="#getting-started">Getting started</a>\
-5️⃣ <a href="#usage">Usage</a>\
-6️⃣ <a href="#license">License</a>\
-7️⃣ <a href="#contact">Contact</a>\
-8️⃣ <a href="#acknowledgments">Acknowledgments</a>
+3️⃣ <a href="#featuresh">Features</a>\
+4️⃣ <a href="#built-with">Built with</a>\
+5️⃣ <a href="#getting-started">Getting started</a>\
+6️⃣ <a href="#usage">Usage</a>\
+7️⃣ <a href="#license">License</a>\
+8️⃣ <a href="#contact">Contact</a>\
+9️⃣ <a href="#acknowledgments">Acknowledgments</a>
 
 <!-- AUTHOR -->
 ## Author
@@ -33,6 +34,9 @@
 💡 <em>Purple Man Gaming v2</em> is a fictional ecommerce modeled after the beautiful <em>Green Man Gaming</em>, a British-based online video game retailer, distributor, and publisher. It's my final project for the Coderhouse's React course, and the continuation and improvement of my final project for the Javascript course (you can check that version <a href="https://jsovandoarriagada.github.io/purple-man-gaming/">here</a>).
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
+
+<!-- FEATURES -->
+## Features
 
 <!-- BUILT WITH -->
 ## Built with
