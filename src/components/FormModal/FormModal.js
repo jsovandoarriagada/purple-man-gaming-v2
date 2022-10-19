@@ -1,6 +1,6 @@
 import "./FormModal.css";
 
-function FormModal({ userInfo, setModal, handleChange, handleProceed }) {
+function FormModal({ buyerInfo, setModal, handleChange, handleProceed }) {
   return (
     <div className="modal">
       <div className="modal__container">
@@ -11,7 +11,7 @@ function FormModal({ userInfo, setModal, handleChange, handleProceed }) {
             id="name"
             placeholder="Your name"
             onChange={handleChange}
-            value={userInfo.name}
+            value={buyerInfo.name}
             autoComplete="off"
             required
           ></input>
@@ -20,7 +20,7 @@ function FormModal({ userInfo, setModal, handleChange, handleProceed }) {
             id="phoneNumber"
             placeholder="Your phone number"
             onChange={handleChange}
-            value={userInfo.phoneNumber}
+            value={buyerInfo.phoneNumber}
             autoComplete="off"
             required
           ></input>
@@ -29,7 +29,7 @@ function FormModal({ userInfo, setModal, handleChange, handleProceed }) {
             id="email"
             placeholder="Your email"
             onChange={handleChange}
-            value={userInfo.email}
+            value={buyerInfo.email}
             autoComplete="off"
             required
           ></input>
@@ -38,7 +38,7 @@ function FormModal({ userInfo, setModal, handleChange, handleProceed }) {
             id="confirmEmail"
             placeholder="Confirm your email"
             onChange={handleChange}
-            value={userInfo.confirmEmail}
+            value={buyerInfo.confirmEmail}
             autoComplete="off"
             required
           ></input>

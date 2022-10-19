@@ -18,9 +18,9 @@ li {
   border: 0;
 }
 
+/* GENERAL */
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -41,294 +41,30 @@ i {
   cursor: pointer;
 }
 
+/* BODY LAYOUT */
 .body__layout {
   display: flex;
   flex-direction: column;
   gap: 0;
 }
 
-/* DETAILS */
-.details {
-  width: 1200px;
-  background: none;
-  margin: 20px auto;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-@media (max-width: 1266px) {
-  .details {
-    width: 100%;
-    padding: 0 20px;
-  }
-}
-
-.details__container {
-  display: flex;
-}
-
-@media (max-width: 700px) {
-  .details__container {
-    flex-direction: column-reverse;
-  }
-}
-
-.details__title {
-  font-weight: bold;
-  margin-top: 1rem;
-  width: 100%;
-  font-size: 18px;
-}
-
-.details__header {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.detail {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding-right: 20px;
-}
-
-@media (max-width: 700px) {
-  .detail {
-    padding-right: 0;
-  }
-}
-
-.detail__video {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-}
-
-.detail__iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.detail__game-description--title {
-  font-weight: bold;
-}
-
-.detail__game-description hr {
-  margin-bottom: 20px;
-}
-
-.detail__game-requirements--title {
-  font-weight: bold;
-}
-
-.detail__game-requirements hr {
-  margin-bottom: 20px;
-}
-
-.detail__requirements {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-@media (max-width: 920px) {
-  .detail__requirements {
-    flex-direction: column;
-    gap: 40px;
-  }
-}
-
-.detail__minimum,
-.detail__recommended {
-  width: 50%;
-}
-
-@media (max-width: 920px) {
-  .detail__minimum,
-  .detail__recommended {
-    width: 100%;
-  }
-}
-
-.detail__minimum--title,
-.detail__recommended--title {
-  margin-bottom: 20px;
-}
-
-.extra {
-  max-width: 265px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-bottom: 40px;
-}
-
-@media (max-width: 700px) {
-  .extra {
-    max-width: 100%;
-  }
-}
-.extra__info {
-  display: flex;
-  flex-direction: column;
-}
-
-.extra__pay {
-  font-weight: bold;
-}
-
-.extra__pay hr {
-  margin-bottom: 20px;
-}
-
-.extra__pay--cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px;
-}
-
-.extra__game-info {
-  font-weight: bold;
-}
-
-.extra__game-info hr {
-  margin-bottom: 20px;
-}
-
-.card {
-  width: 100%;
-  border-radius: 0;
-  background: none;
-  border: 0;
-  font-family: "Rubik";
-  font-weight: bold;
-}
-
-.card__content {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.card__body {
-  padding: 0;
-}
-
-.card__figure {
-  width: 100%;
-}
-
-.card__image {
-  width: 100%;
-}
-
-.card__display {
-  display: flex;
-  flex-direction: row;
-  gap: 0;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.6rem 0.8rem;
-  background-color: #161618;
-}
-
-.card__cost {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-}
-.card__discount {
-  background-color: #da1106;
-  padding: 0.8rem 1.2rem;
-}
-.card__price--base {
-  text-decoration: line-through;
-  color: #a2a2a3;
-}
-.card__price--final {
-  color: #a153f9;
-}
-.card__platform {
-  display: flex;
-  flex-direction: row;
-  gap: 0.7rem;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  height: 3.5rem;
-}
-.card__platform--img {
-  width: auto;
-  height: 2.3rem;
-}
-
-.card__counter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  background-color: #454546;
-  padding: 10px 0;
-}
-
-.card__counter i {
-  color: #a2a2a3;
-  font-size: 18px;
-}
-
-.fa-solid {
-  cursor: pointer;
-}
-
-.card__button {
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 3.5rem;
-  padding: 1rem 2rem;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #ffffff;
-  border: none;
-  transition: 0.4s;
-  background-color: #a153f9;
-  color: #161618;
-}
-
+/* BACK TO HOME BUTTON */
 .back {
   display: flex;
   justify-items: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 0.5rem;
   color: #a153f9 !important;
   font-weight: bold;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 
 .back i {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .back p {
-  padding-top: 2px;
+  padding-top: 0.2rem;
 }

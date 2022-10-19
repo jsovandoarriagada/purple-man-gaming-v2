@@ -1,4 +1,226 @@
-.card__button {
-  transition: 0.4s;
+/* DETAIL */
+.detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding-right: 2rem;
 }
 
+@media (max-width: 43.75rem) {
+  .detail {
+    padding-right: 0;
+  }
+}
+
+/* DETAIL: VIDEO */
+.detail__video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.detail__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* DETAIL: GAME DESCRIPTION */
+.detail__game-description--title {
+  font-weight: bold;
+}
+
+.detail__game-description hr {
+  margin-bottom: 2rem;
+}
+
+/* DETAIL: GAME REQUIREMENTS */
+.detail__game-requirements--title {
+  font-weight: bold;
+}
+
+.detail__game-requirements hr {
+  margin-bottom: 2rem;
+}
+
+.detail__requirements {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media (max-width: 57.5rem) {
+  .detail__requirements {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+.detail__minimum,
+.detail__recommended {
+  width: 50%;
+}
+
+@media (max-width: 57.5rem) {
+  .detail__minimum,
+  .detail__recommended {
+    width: 100%;
+  }
+}
+
+.detail__minimum--title,
+.detail__recommended--title {
+  margin-bottom: 2rem;
+}
+
+/* EXTRA */
+.extra {
+  max-width: 26.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 43.75rem) {
+  .extra {
+    max-width: 100%;
+  }
+}
+
+/* EXTRA: INFO */
+.extra__info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* EXTRA: PAY METHODS */
+.extra__pay {
+  font-weight: bold;
+}
+
+.extra__pay hr {
+  margin-bottom: 2rem;
+}
+
+.extra__pay--cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+/* EXTRA: GAME INFO */
+.extra__game-info {
+  font-weight: bold;
+}
+
+.extra__game-info hr {
+  margin-bottom: 2rem;
+}
+
+/* CARD */
+.card {
+  width: 100%;
+  border-radius: 0;
+  background: none;
+  border: 0;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+
+/* CARD: CONTENT */
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* CARD: BODY */
+.card__body {
+  padding: 0;
+}
+
+/* CARD: IMAGE */
+.card__image {
+  width: 100%;
+}
+
+.card__figure {
+  width: 100%;
+}
+
+/* CARD: DISPLAY */
+.card__display {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  background-color: #161618;
+}
+
+.card__cost {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.card__discount {
+  background-color: #da1106;
+  padding: 0.8rem 1.2rem;
+}
+.card__price--base {
+  text-decoration: line-through;
+  color: #a2a2a3;
+}
+.card__price--final {
+  color: #a153f9;
+}
+
+/* CARD: PLATFORM */
+.card__platform {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 3.5rem;
+}
+
+.card__platform--img {
+  width: auto;
+  height: 2.3rem;
+}
+
+/* CARD: BUTTON */
+.card__button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  transition: 0.4s;
+  background-color: #a153f9;
+  color: #161618;
+}
+
+.fa-solid {
+  cursor: pointer;
+}

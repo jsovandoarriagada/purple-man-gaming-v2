@@ -1,3 +1,4 @@
+/* CARTWIDGET */
 .cartwidget {
   display: flex;
   flex-direction: row;
@@ -7,6 +8,7 @@
   position: relative;
 }
 
+/* CARTWIDGET: COUNT */
 .cartwidget__count {
   display: flex;
   flex-direction: row;

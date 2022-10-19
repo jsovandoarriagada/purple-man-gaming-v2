@@ -1,15 +1,21 @@
+/* PRODUCT */
 .product {
   background-color: #454546;
   max-width: 60rem;
 }
+
+/* PRODUCT: CONTENT */
 .product__content {
   background-color: #161618;
 }
 
+/* PRODUCT: IMAGE */
 .product__img {
   width: 100%;
   height: auto;
 }
+
+/* PRODUCT: DISPLAY */
 .product__display {
   display: flex;
   flex-direction: row;
@@ -18,6 +24,8 @@
   align-items: center;
   margin: 0.6rem 0.8rem;
 }
+
+/* PRODUCT: COST */
 .product__cost {
   display: flex;
   flex-direction: row;
@@ -25,21 +33,26 @@
   justify-content: center;
   align-items: center;
 }
+
 .product__discount {
   color: #ffffff;
   background-color: #da1106;
   padding: 0.8rem 1.2rem;
   font-weight: bold;
 }
+
 .product__price--base {
   text-decoration: line-through;
   color: #a2a2a3;
   font-weight: bold;
 }
+
 .product__price--final {
   color: #a153f9;
   font-weight: bold;
 }
+
+/* PRODUCT: PLATFORM */
 .product__platform {
   display: flex;
   flex-direction: row;
@@ -50,10 +63,13 @@
   width: auto;
   height: 3.5rem;
 }
+
 .product__platform--img {
   width: auto;
   height: 2.3rem;
 }
+
+/* PRODUCT: BUTTON */
 .product__button {
   display: flex;
   flex-direction: row;

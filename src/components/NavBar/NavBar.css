@@ -5,6 +5,8 @@
   z-index: 10;
   top: 0;
 }
+
+/* HEADER: MAIN */
 .header__main {
   display: flex;
   flex-direction: row;
@@ -22,11 +24,15 @@
     padding: 0 2rem;
   }
 }
+
+/* HEADER: LOGO */
 .header__logo {
   width: auto;
   height: 2.8rem;
   cursor: pointer;
 }
+
+/* HEADER: MENU */
 .header__menu {
   display: flex;
   flex-direction: row;
@@ -34,15 +40,18 @@
   justify-content: center;
   align-items: center;
 }
+
 .header__menu i {
   font-size: 2.6rem;
   color: #a2a2a2;
   transition: 0.4s;
 }
+
 .header__menu i:hover {
   color: #ffffff;
 }
 
+/* HEADER: NAV */
 .header .nav {
   display: flex;
   flex-direction: row;
@@ -54,6 +63,7 @@
   background-color: #a153f9;
   text-decoration: none;
 }
+
 .header .nav__a {
   cursor: pointer;
   margin: 0;

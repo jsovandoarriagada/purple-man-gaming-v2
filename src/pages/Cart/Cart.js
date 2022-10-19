@@ -9,7 +9,7 @@ import "./Cart.css";
 
 const Cart = () => {
   const { cart, removeItem, clear, fullPrice, discount, total } = useContext(CartContext);
-  const [userInfo, setUserInfo] = useState({ name: "", phoneNumber: "", email: "", confirmEmail: "" });
+  const [buyerInfo, setBuyerInfo] = useState({ name: "", phoneNumber: "", email: "", confirmEmail: "" });
   const [modal, setModal] = useState(false);
   const db = getFirestore();
 
@@ -21,16 +21,16 @@ const Cart = () => {
 
   const handleChange = (event) => {
     const { value, id } = event.target;
-    setUserInfo({ ...userInfo, [id]: value });
+    setBuyerInfo({ ...buyerInfo, [id]: value });
   };
 
   const handleProceed = (event) => {
     event.preventDefault();
     if (
-      userInfo.name.trim() === "" &&
-      userInfo.phoneNumber.trim() === "" &&
-      userInfo.email.trim() === "" &&
-      userInfo.confirmEmail.trim() === ""
+      buyerInfo.name.trim() === "" &&
+      buyerInfo.phoneNumber.trim() === "" &&
+      buyerInfo.email.trim() === "" &&
+      buyerInfo.confirmEmail.trim() === ""
     ) {
       return toast
         .error(`YOU MUST FILL\nIN ALL FIELDS`, {
@@ -50,12 +50,12 @@ const Cart = () => {
         });
     }
     if (
-      userInfo.name.trim() === "" ||
-      userInfo.phoneNumber.length < 9 ||
-      userInfo.email.trim() === "" ||
-      userInfo.confirmEmail.trim() === "" ||
-      !userInfo.email.trim().includes("@") ||
-      !userInfo.confirmEmail.trim().includes("@")
+      buyerInfo.name.trim() === "" ||
+      buyerInfo.phoneNumber.length < 9 ||
+      buyerInfo.email.trim() === "" ||
+      buyerInfo.confirmEmail.trim() === "" ||
+      !buyerInfo.email.trim().includes("@") ||
+      !buyerInfo.confirmEmail.trim().includes("@")
     ) {
       return toast
         .error(`ONE OR MORE FIELDS WERE OMITED\nOR ENTERED INCORRECTLY`, {
@@ -74,7 +74,7 @@ const Cart = () => {
           return;
         });
     }
-    if (userInfo.email !== userInfo.confirmEmail) {
+    if (buyerInfo.email !== buyerInfo.confirmEmail) {
       return toast
         .error(`THE ENTERED EMAILS\nDON'T MATCH`, {
           iconTheme: {
@@ -98,10 +98,10 @@ const Cart = () => {
   const createOrder = () => {
     const order = {
       buyer: {
-        name: userInfo.name,
-        phoneNumer: userInfo.phoneNumber,
-        email: userInfo.email,
-        confirmEmail: userInfo.confirmEmail,
+        name: buyerInfo.name,
+        phoneNumer: buyerInfo.phoneNumber,
+        email: buyerInfo.email,
+        confirmEmail: buyerInfo.confirmEmail,
       },
       items: cart,
       total: cart.reduce((previous, current) => previous + current.finalPrice * current.quantity, 0),
@@ -210,7 +210,7 @@ const Cart = () => {
               )}
               {modal && (
                 <FormModal
-                  userInfo={userInfo}
+                  buyerInfo={buyerInfo}
                   setModal={setModal}
                   handleChange={handleChange}
                   handleProceed={handleProceed}

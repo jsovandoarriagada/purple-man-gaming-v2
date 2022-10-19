@@ -14,7 +14,7 @@
   }
 }
 
-
+/* CART: CONTAINER */
 .cart__container {
   display: flex;
   flex-direction: column;
@@ -25,6 +25,7 @@
   padding: 0;
 }
 
+/* CART: ITEMS */
 .cart__items {
   display: flex;
   flex-direction: column;
@@ -34,10 +35,16 @@
   list-style: none;
 }
 
+/* CART: EMPTY */
 .cart__empty {
   text-align: center;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
 }
 
+/* CART: SUMMARY */
 .cart__summary {
   width: 100%;
   height: auto;
@@ -55,11 +62,12 @@
 
 .cart__summary--title {
   background-color: #a153f9;
-  padding: 10px;
+  padding: 1rem;
   color: #161618;
   font-weight: bold;
 }
 
+/* SUMMARY */
 .summary {
   display: flex;
   flex-direction: column;
@@ -68,6 +76,7 @@
   padding: 1rem 0;
 }
 
+/* SUMMARY: FULL, DISCOUNT & TOTAL */
 .summary__full,
 .summary__discount,
 .summary__total {
@@ -95,16 +104,19 @@
   font-weight: bold;
 }
 
+/* SUMMARY: HR */
 .summary hr {
   margin: 0 1rem;
 }
 
+/* SUMMARY: BUTTONS */
 .summary__buttons {
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
 
+/* SUMMARY: CONTINUE & CLEAR */
 .summary__continue,
 .summary__clear {
   display: flex;
@@ -147,6 +159,7 @@
   background-color: #161618 !important;
 }
 
+/* ITEM: GAME */
 .item__game {
   display: flex;
   flex-direction: row;
@@ -156,6 +169,7 @@
   grid-area: game;
 }
 
+/* ITEM: PLATFORM */
 .item__platform {
   display: flex;
   flex-direction: row;
@@ -172,16 +186,19 @@
   }
 }
 
+/* ITEM: IMAGE */
 .item img {
-  width: 107px;
+  width: 10.7rem;
   height: 100%;
 }
 
+/* ITEM: PLATFORM */
 .item__platform--logo {
   height: 2rem !important;
   width: auto !important;
 }
 
+/* ITEM: QUANTITY */
 .item__quantity {
   display: flex;
   flex-direction: row;
@@ -202,6 +219,7 @@
   font-size: 1.8rem;
 }
 
+/* ITEM: COST */
 .item__cost {
   display: flex;
   justify-content: flex-end;
@@ -226,13 +244,14 @@
 .item__price--base {
   text-decoration: line-through;
   color: #a2a2a3;
-  width: 70px;
+  width: 7rem;
 }
 
 .item__price--final {
   color: #a153f9;
 }
 
+/* ITEM: ICONS */
 .item .fa-solid {
   font-size: 2rem;
   color: #a2a2a3;
@@ -247,26 +266,4 @@
   color: #ffffff;
 }
 
-.cart a:hover {
-  color: #a153f9;
-}
 
-.cart__empty {
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-
-@media (max-width: 480px) {
-  .cart__empty span {
-    display: none;
-  }
-}
-
-.cart__payment {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2px;
-}
