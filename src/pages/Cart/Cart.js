@@ -70,7 +70,7 @@ const Cart = () => {
     }
     if (userInfo.email !== userInfo.confirmEmail) {
       return toast
-        .error(`THE ENTERED EMAILS DON'T MATCH`, {
+        .error(`THE ENTERED EMAILS\nDON'T MATCH`, {
           style: {
             borderRadius: "0",
             background: "#2d2d2f",
