@@ -38,6 +38,9 @@
 <!-- FEATURES -->
 ## Features
 
+💡 Persistent data (localStorage)
+💡 Responsive 
+
 <!-- BUILT WITH -->
 ## Built with
 
