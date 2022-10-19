@@ -13,7 +13,7 @@
 
 1️⃣ <a href="#author">Author</a>\
 2️⃣ <a href="#about-the-project">About the project</a>\
-3️⃣ <a href="#featuresh">Features</a>\
+3️⃣ <a href="#features">Features</a>\
 4️⃣ <a href="#built-with">Built with</a>\
 5️⃣ <a href="#getting-started">Getting started</a>\
 6️⃣ <a href="#usage">Usage</a>\
