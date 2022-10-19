@@ -43,7 +43,7 @@
 
 💡 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![Photoshop][Photoshop]][Photoshop-url] [![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
+[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
@@ -113,8 +113,6 @@
 [React-url]: https://reactjs.org/
 [Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [Firebase-url]: https://firebase.google.com/
-[Photoshop]: https://img.shields.io/badge/photoshop-001e36?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
-[Photoshop-url]: https://www.adobe.com/products/photoshop.html
 [Moment.js]: https://img.shields.io/badge/Moment.js-green?style=for-the-badge&logo=Clockify&logoColor=white
 [Moment.js-url]: https://momentjs.com/
 [Gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
