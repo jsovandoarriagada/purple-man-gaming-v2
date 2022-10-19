@@ -39,7 +39,7 @@
 ## Features
 
 💡 Persistent data (localStorage)\
-💡 Responsive 
+💡 Responsive design
 
 <!-- BUILT WITH -->
 ## Built with
