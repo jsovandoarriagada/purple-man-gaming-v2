@@ -13,6 +13,12 @@ const ItemDetail = ({ item }) => {
     ? { backgroundColor: "#da1106", color: "#ffffff" }
     : { backgroundColor: "#a153f9", color: "#161618" };
 
+  const disabledButton = {
+    textDecoration: "line-through",
+    textDecorationColor: "#161618",
+    textDecorationThickness: "0.2rem",
+  };
+
   useEffect(() => {
     setStock(item.stock);
   }, [item.stock]);
@@ -118,10 +124,17 @@ const ItemDetail = ({ item }) => {
                     ) : (
                       <ItemCount count={count} setCount={setCount} stock={item.stock} />
                     )}
-                    <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
-                      <i className="fa-solid fa-cart-shopping"></i>
-                      <p>ADD TO CART</p>
-                    </button>
+                    {item.stock === 0 ? (
+                      <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
+                        <i className="fa-solid fa-cart-shopping"></i>
+                        <p style={disabledButton}>ADD TO CART</p>
+                      </button>
+                    ) : (
+                      <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
+                        <i className="fa-solid fa-cart-shopping"></i>
+                        <p>ADD TO CART</p>
+                      </button>
+                    )}
                   </>
                 )}
               </div>
