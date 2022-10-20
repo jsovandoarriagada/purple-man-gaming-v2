@@ -111,14 +111,19 @@ const ItemDetail = ({ item }) => {
                   </>
                 ) : (
                   <>
-                    <ItemCount count={count} setCount={setCount} stock={item.stock} />
+                    {item.stock === 0 ? (
+                      <div className="card__counter">
+                        <p className="card__counter--display">OUT OF STOCK</p>
+                      </div>
+                    ) : (
+                      <ItemCount count={count} setCount={setCount} stock={item.stock} />
+                    )}
                     <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
                       <i className="fa-solid fa-cart-shopping"></i>
                       <p>ADD TO CART</p>
                     </button>
                   </>
                 )}
-               
               </div>
             </div>
           </div>

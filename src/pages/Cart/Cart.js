@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartProvider";
-import { collection, addDoc, getFirestore } from "firebase/firestore";
+import { collection, addDoc, getFirestore, updateDoc, doc } from "firebase/firestore";
 import { NavLink } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import FormModal from "../../components/FormModal/FormModal";
@@ -125,12 +125,30 @@ const Cart = () => {
             textTransform: "uppercase",
           },
         });
-      })
-      .catch((error) => {
-        console.log(error);
+        return updateStock();
       })
       .then(setModal(false))
-      .finally(() => clear());
+      .then(() => clear())
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const updateStock = () => {
+    cart.forEach((element) => {
+      const stock = {
+        stock: element.stock - element.quantity,
+      };
+      const db = getFirestore();
+      const queryUpdate = doc(db, "items", element.id);
+      updateDoc(queryUpdate, stock)
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    });
   };
 
   return (
