@@ -17,6 +17,7 @@ const Cart = () => {
     textDecoration: "line-through",
     textDecorationColor: "#161618",
     textDecorationThickness: "2px",
+    cursor: "not-allowed",
   };
 
   const handleChange = (event) => {

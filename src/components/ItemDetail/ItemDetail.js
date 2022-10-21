@@ -17,6 +17,11 @@ const ItemDetail = ({ item }) => {
     textDecoration: "line-through",
     textDecorationColor: "#161618",
     textDecorationThickness: "0.2rem",
+    cursor: "not-allowed",
+  };
+
+  const disabledIcon = {
+    cursor: "not-allowed",
   };
 
   useEffect(() => {
@@ -125,9 +130,9 @@ const ItemDetail = ({ item }) => {
                       <ItemCount count={count} setCount={setCount} stock={item.stock} />
                     )}
                     {item.stock === 0 ? (
-                      <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
-                        <i className="fa-solid fa-cart-shopping"></i>
-                        <p style={disabledButton}>ADD TO CART</p>
+                      <button className="card__button card__button--add" onClick={addToCart} style={disabledButton}>
+                        <i className="fa-solid fa-cart-shopping" style={disabledIcon}></i>
+                        <p>ADD TO CART</p>
                       </button>
                     ) : (
                       <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
