@@ -1,0 +1,80 @@
+/* CAROUSEL */
+.desktop-img {
+    display: block;
+}
+
+.mobile-img {
+    display: none;
+}
+
+
+@media (max-width: 56.25rem) {
+    .desktop-img {
+      display: none;
+    }
+
+    .mobile-img {
+      display: block;
+    }
+}
+
+.carousel__bar {
+    background-color: #161618;
+    height: 4.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120rem;
+}
+
+@media (max-width: 79.125rem) {
+    .bar {
+      width: 100%;
+      padding: 0 2rem;
+    }
+  }
+  
+
+.bar__img {
+    height: 4.4rem;
+}
+
+.carousel__cost {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .carousel__discount {
+    color: #ffffff;
+    background-color: #da1106;
+    padding: 0.4rem 0.6rem;
+    font-weight: bold;
+  }
+  
+  .carousel__price {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .carousel__price--base {
+    text-decoration: line-through;
+    color: #a2a2a3;
+    font-weight: bold;
+    margin-bottom: -4px;
+  }
+  
+  .carousel__price--final {
+    color: #a153f9;
+    font-weight: bold;
+  }

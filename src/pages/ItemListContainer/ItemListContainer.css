@@ -13,3 +13,41 @@
     padding: 0 2rem;
   }
 }
+
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.category__decoration {
+  height: 4rem;
+  width: 1rem;
+  background-color: #a153f9;
+}
+
+.category__p {
+  width: 119rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #454546;
+  padding-left: 1rem;
+}
+
+@media (max-width: 79.125rem) {
+  .category__p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 79.125rem) {
+  .category  {
+  padding: 0 2rem;
+  }
+}

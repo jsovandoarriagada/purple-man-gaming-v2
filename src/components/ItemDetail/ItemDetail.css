@@ -138,6 +138,7 @@
 .card__content {
   display: flex;
   flex-direction: column;
+  background-color: #161618;
   gap: 0;
 }
 
@@ -159,30 +160,43 @@
 .card__display {
   display: flex;
   flex-direction: row;
-  gap: 0;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 0.8rem;
-  background-color: #161618;
+  height: 4rem;
+  padding: 0 0.6rem;
 }
 
+/* CARD: COST */
 .card__cost {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 0.6rem;
   justify-content: center;
   align-items: center;
 }
+
 .card__discount {
+  color: #ffffff;
   background-color: #da1106;
-  padding: 0.8rem 1.2rem;
+  padding: 0.4rem 0.6rem;
+  font-weight: bold;
 }
+
+.card__price {
+  display: flex;
+  flex-direction: column;
+}
+
 .card__price--base {
   text-decoration: line-through;
   color: #a2a2a3;
+  font-weight: bold;
+  margin-bottom: -4px;
 }
+
 .card__price--final {
   color: #a153f9;
+  font-weight: bold;
 }
 
 /* CARD: PLATFORM */
@@ -193,12 +207,20 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 3.5rem;
 }
 
 .card__platform--img {
   width: auto;
   height: 2.3rem;
+}
+
+/* CARD: STOCK */
+.card__stock {
+  height: 4.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161618;
 }
 
 /* CARD: BUTTON */
@@ -210,7 +232,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 3.5rem;
+  height: 4rem;
   padding: 1rem 2rem;
   font-size: 1.4rem;
   font-weight: 700;
@@ -219,6 +241,7 @@
   transition: 0.4s;
   background-color: #a153f9;
   color: #161618;
+ 
 }
 
 .fa-solid {

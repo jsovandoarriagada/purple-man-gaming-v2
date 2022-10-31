@@ -68,3 +68,10 @@ i {
 .back p {
   padding-top: 0.2rem;
 }
+
+/* DISABLE TEXT SELECTION */
+.disableTextSelection {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -4,6 +4,7 @@ import { getDocs, collection, query, where } from "firebase/firestore";
 import db from "../../firebase";
 import Loader from "../../components/Loader/Loader";
 import ItemList from "../../components/ItemList/ItemList";
+import Carousel from "../../components/Carousel/Carousel";
 
 import "./ItemListContainer.css";
 
@@ -51,9 +52,23 @@ const ItemListContainer = () => {
       {isLoading ? (
         <Loader />
       ) : (
-        <section className="products">
-          <ItemList list={list} />
-        </section>
+        <>
+          <Carousel />
+          {category ? (
+            <div className="category">
+              <div className="category__decoration"></div>
+              <p className="category__p">{category.replace("-", " ").toUpperCase()}</p>
+            </div>
+          ) : (
+            <div className="category">
+              <div className="category__decoration"></div>
+              <p className="category__p">ALL GAMES</p>
+            </div>
+          )}
+          <section className="products">
+            <ItemList list={list} />
+          </section>
+        </>
       )}
     </>
   );

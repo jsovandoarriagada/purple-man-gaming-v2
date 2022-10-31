@@ -65,20 +65,32 @@ const ItemDetail = ({ item }) => {
               <div className="detail__minimum">
                 <p className="detail__minimum--title">MINIMUM:</p>
                 <p className="detail__minimum--os">OS &mdash; {item.minimum.os}</p>
-                <p className="detail__minimum--processor">Processor &mdash; {item.minimum.processor}</p>
+                <p className="detail__minimum--processor">
+                  Processor &mdash; {item.minimum.processor}
+                </p>
                 <p className="detail__minimum--ram">RAM &mdash; {item.minimum.ram}</p>
-                <p className="detail__minimum--graphics">Graphics &mdash; {item.minimum.graphics}</p>
+                <p className="detail__minimum--graphics">
+                  Graphics &mdash; {item.minimum.graphics}
+                </p>
                 <p className="detail__minimum--disk">Disk Space &mdash; {item.minimum.disk}</p>
                 <p className="detail__minimum--directx">Direct X &mdash; {item.minimum.directx}</p>
               </div>
               <div className="detail__recommended">
                 <p className="detail__recommended--title">RECOMMENDED:</p>
                 <p className="detail__recommended--os">OS &mdash; {item.recommended.os}</p>
-                <p className="detail__recommended--processor">Processor &mdash; {item.recommended.processor}</p>
+                <p className="detail__recommended--processor">
+                  Processor &mdash; {item.recommended.processor}
+                </p>
                 <p className="detail__recommended--ram">RAM &mdash; {item.recommended.ram}</p>
-                <p className="detail__recommended--graphics">Graphics &mdash; {item.recommended.graphics}</p>
-                <p className="detail__recommended--disk">Disk Space &mdash; {item.recommended.disk}</p>
-                <p className="detail__recommended--directx">Direct X &mdash; {item.recommended.directx}</p>
+                <p className="detail__recommended--graphics">
+                  Graphics &mdash; {item.recommended.graphics}
+                </p>
+                <p className="detail__recommended--disk">
+                  Disk Space &mdash; {item.recommended.disk}
+                </p>
+                <p className="detail__recommended--directx">
+                  Direct X &mdash; {item.recommended.directx}
+                </p>
               </div>
             </div>
           </div>
@@ -95,8 +107,12 @@ const ItemDetail = ({ item }) => {
                     <p className="card__discount">{item.discount}</p>
                     {isInCart(item) ? (
                       <div className="card__price">
-                        <p className="card__price--base">${item.basePrice * isInCart(item).quantity} USD</p>
-                        <p className="card__price--final">${item.finalPrice * isInCart(item).quantity} USD</p>
+                        <p className="card__price--base">
+                          ${item.basePrice * isInCart(item).quantity} USD
+                        </p>
+                        <p className="card__price--final">
+                          ${item.finalPrice * isInCart(item).quantity} USD
+                        </p>
                       </div>
                     ) : (
                       <div className="card__price">
@@ -106,7 +122,11 @@ const ItemDetail = ({ item }) => {
                     )}
                   </div>
                   <div className="card__platform">
-                    <img className="card__platform--img" src={item.platformLogo} alt={item.platform} />
+                    <img
+                      className="card__platform--img"
+                      src={item.platformLogo}
+                      alt={item.platform}
+                    />
                     <p>{item.platform}</p>
                   </div>
                 </div>
@@ -115,7 +135,14 @@ const ItemDetail = ({ item }) => {
                     <div className="card__counter">
                       <p className="card__counter--display">x{isInCart(item).quantity}</p>
                     </div>
-                    <NavLink to={"/cart"} className="card__button card__button--go" style={buttonStyles}>
+                    <div className="card__stock">
+                      <p>STOCK: {item.stock}</p>
+                    </div>
+                    <NavLink
+                      to={"/cart"}
+                      className="card__button card__button--go"
+                      style={buttonStyles}
+                    >
                       <i className="fa-solid fa-cart-shopping"></i>
                       <p>GO TO CART</p>
                     </NavLink>
@@ -124,18 +151,29 @@ const ItemDetail = ({ item }) => {
                   <>
                     {item.stock === 0 ? (
                       <div className="card__counter">
-                        <p className="card__counter--display">OUT OF STOCK</p>
+                        <p className="card__counter--display">NOT AVAILABLE</p>
                       </div>
                     ) : (
                       <ItemCount count={count} setCount={setCount} stock={item.stock} />
                     )}
+                    <div className="card__stock">
+                      <p>STOCK: {item.stock}</p>
+                    </div>
                     {item.stock === 0 ? (
-                      <button className="card__button card__button--add" onClick={addToCart} style={disabledButton}>
+                      <button
+                        className="card__button card__button--add"
+                        onClick={addToCart}
+                        style={disabledButton}
+                      >
                         <i className="fa-solid fa-cart-shopping" style={disabledIcon}></i>
                         <p>ADD TO CART</p>
                       </button>
                     ) : (
-                      <button className="card__button card__button--add" onClick={addToCart} style={buttonStyles}>
+                      <button
+                        className="card__button card__button--add"
+                        onClick={addToCart}
+                        style={buttonStyles}
+                      >
                         <i className="fa-solid fa-cart-shopping"></i>
                         <p>ADD TO CART</p>
                       </button>

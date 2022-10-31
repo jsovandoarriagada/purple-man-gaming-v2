@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import TopBar from "./components/TopBar/TopBar";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./pages/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./pages/ItemDetailContainer/ItemDetailContainer";
@@ -12,6 +13,7 @@ function App() {
     <CartProvider>
       <BrowserRouter>
         <ScrollToTop />
+        <TopBar />
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
