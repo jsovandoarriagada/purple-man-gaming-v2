@@ -44,7 +44,7 @@
   .top__text p {
     font-size: 1.2rem;
     color: #bebebe;
-    min-width: 100%;
+    min-width: 18rem !important;
   }
   
   .top img {
