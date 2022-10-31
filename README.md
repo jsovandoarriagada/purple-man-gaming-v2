@@ -46,7 +46,7 @@
 
 💡 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
+[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [![Bootstrap][Bootstrap]][Firebase-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
@@ -124,3 +124,5 @@
 [Linkedin-url]: https://www.linkedin.com/in/jsovandoarriagada/
 [HotToast]: https://img.shields.io/badge/Hot_Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
 [HotToast-url]: https://react-hot-toast.com/
+[Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com/
