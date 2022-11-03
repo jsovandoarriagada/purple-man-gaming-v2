@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
 
@@ -26,13 +26,13 @@ const NavBar = () => {
   return (
     <header className="header">
       <div className="header__main">
-        <Link to={"/"}>
+        <NavLink to={"/"}>
           <img
             className="header__logo"
             src="https://i.ibb.co/gWDVHGx/logo.png"
             alt="Purple Man Gaming"
           />
-        </Link>
+        </NavLink>
         <div className="header__menu">
           <CartWidget />
         </div>
@@ -41,24 +41,41 @@ const NavBar = () => {
         {(toggleMenu || screenWidth > 500) && (
           <ul className="nav__ul">
             <li className="nav__li">
-              <Link to={"/"} onClick={toggleNav}>
+              <NavLink
+                end
+                to={"/"}
+                className={({ isActive }) => (isActive ? "nav__active" : "nav__unactive")}
+                onClick={toggleNav}
+              >
                 ALL GAMES
-              </Link>
+              </NavLink>
             </li>
             <li className="nav__li">
-              <Link to={"category/hot-deals"} onClick={toggleNav}>
+              <NavLink
+                to={"category/hot-deals"}
+                className={({ isActive }) => (isActive ? "nav__active" : "nav__unactive")}
+                onClick={toggleNav}
+              >
                 HOT DEALS
-              </Link>
+              </NavLink>
             </li>
             <li className="nav__li">
-              <Link to={"category/new"} onClick={toggleNav}>
+              <NavLink
+                to={"category/new"}
+                className={({ isActive }) => (isActive ? "nav__active" : "nav__unactive")}
+                onClick={toggleNav}
+              >
                 NEW
-              </Link>
+              </NavLink>
             </li>
             <li className="nav__li">
-              <Link to={"category/coming-soon"} onClick={toggleNav}>
+              <NavLink
+                to={"category/coming-soon"}
+                className={({ isActive }) => (isActive ? "nav__active" : "nav__unactive")}
+                onClick={toggleNav}
+              >
                 COMING SOON
-              </Link>
+              </NavLink>
             </li>
           </ul>
         )}

@@ -101,3 +101,20 @@
     top: 65px;
   }
 }
+
+.nav__li a {
+  transition: 0.4s;
+} 
+
+.nav__li a:hover {
+  color: #ffffff !important;
+} 
+
+
+.nav__active {
+  color: #ffffff !important;
+}
+
+.nav__unactive {
+  color: #161618 !important;
+}
