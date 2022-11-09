@@ -9,7 +9,12 @@ import "./Cart.css";
 
 const Cart = () => {
   const { cart, removeItem, clear, fullPrice, discount, total } = useContext(CartContext);
-  const [buyerInfo, setBuyerInfo] = useState({ name: "", phoneNumber: "", email: "", confirmEmail: "" });
+  const [buyerInfo, setBuyerInfo] = useState({
+    name: "",
+    phoneNumber: "",
+    email: "",
+    confirmEmail: "",
+  });
   const [modal, setModal] = useState(false);
   const db = getFirestore();
 
@@ -105,7 +110,10 @@ const Cart = () => {
         confirmEmail: buyerInfo.confirmEmail,
       },
       items: cart,
-      total: cart.reduce((previous, current) => previous + current.finalPrice * current.quantity, 0),
+      total: cart.reduce(
+        (previous, current) => previous + current.finalPrice * current.quantity,
+        0
+      ),
       date: moment().format(),
     };
 
@@ -162,7 +170,11 @@ const Cart = () => {
                 <div className="item__game">
                   <img src={item.productImage} alt={item.name} />
                   <div className="item__platform">
-                    <img className="item__platform--logo" src={item.platformLogo} alt={item.platform} />
+                    <img
+                      className="item__platform--logo"
+                      src={item.platformLogo}
+                      alt={item.platform}
+                    />
                     <p>{item.platform}</p>
                   </div>
                 </div>
@@ -187,7 +199,7 @@ const Cart = () => {
           ) : (
             <div className="cart__empty">
               <NavLink to={"/"} className="back">
-                <i class="fa-solid fa-shop"></i>
+                <i className="fa-solid fa-shop"></i>
                 <p>BACK TO HOME</p>
               </NavLink>
               <p className="empty">YOUR CART IS EMPTY</p>
