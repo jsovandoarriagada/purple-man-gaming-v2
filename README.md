@@ -16,10 +16,9 @@
 3️⃣ <a href="#features">Features</a>\
 4️⃣ <a href="#built-with">Built with</a>\
 5️⃣ <a href="#getting-started">Getting started</a>\
-6️⃣ <a href="#usage">Usage</a>\
-7️⃣ <a href="#license">License</a>\
-8️⃣ <a href="#contact">Contact</a>\
-9️⃣ <a href="#acknowledgments">Acknowledgments</a>
+6️⃣ <a href="#license">License</a>\
+7️⃣ <a href="#contact">Contact</a>\
+8️⃣ <a href="#acknowledgments">Acknowledgments</a>
 
 <!-- AUTHOR -->
 ## Author
@@ -46,7 +45,7 @@
 
 💡 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [![Bootstrap][Bootstrap]][Firebase-url] [![Firebase][Firebase]][Firebase-url]
+[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [Firebase-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
@@ -65,27 +64,6 @@
    ```sh
    npm start
    ```
-
-<p align="right">👆 <a href="#readme-top">Back to top</a></p>
-
-<!-- USAGE -->
-## Usage
-<p>👉 Filter games by category:</p>
-<p>
-  <img src="https://i.ibb.co/cDCCpdQ/1.gif" />
-</p>
-<p>👉 Add games to your cart:</p>
-<p>
-  <img src="https://i.ibb.co/94XZ2nq/2.gif" />
-</p>
-<p>👉 Delete a single game and clear the cart:</p>
-<p>
-  <img src="https://i.ibb.co/QHLVv7t/3.gif" />
-</p>
-<p>👉 Fill out the form correctly and make your purchase:</p>
-<p>
-  <img src="https://i.ibb.co/3cLv92H/4.gif" />
-</p>
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
@@ -124,5 +102,3 @@
 [Linkedin-url]: https://www.linkedin.com/in/jsovandoarriagada/
 [HotToast]: https://img.shields.io/badge/Hot_Toast-red?style=for-the-badge&logo=Hetzner&logoColor=white
 [HotToast-url]: https://react-hot-toast.com/
-[Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com/
