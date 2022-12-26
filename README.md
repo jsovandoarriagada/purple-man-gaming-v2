@@ -45,7 +45,7 @@
 
 💡 <em>Purple Man Gaming v2</em> was created using the following technologies:
 
-[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [Firebase-url] [![Firebase][Firebase]][Firebase-url]
+[![React][React]][React-url] [![HotToast][HotToast]][HotToast-url] [![Moment.js][Moment.js]][Moment.js-url] [![Firebase][Firebase]][Firebase-url]
 
 <p align="right">👆 <a href="#readme-top">Back to top</a></p>
 
