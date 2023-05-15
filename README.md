@@ -40,6 +40,8 @@
 💡 Persistent data (localStorage)\
 💡 Responsive design
 
+<p align="right">👆 <a href="#readme-top">Back to top</a></p>
+
 <!-- BUILT WITH -->
 ## Built with
 
